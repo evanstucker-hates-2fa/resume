@@ -17,6 +17,7 @@ For as long as I can remember, my resume has been this terrifying XML document t
 # Files
 
 | File | Description |
+| -------- | -------- |
 | .gitignore | Ignores any decrypted files. |
 | Evans Tucker's Resume.html | The output of this process. |
 | README.md | This. |
