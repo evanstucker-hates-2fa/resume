@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="generator" content="HTML Tidy for HTML5 for Linux version 5.1.25">
+  <meta charset="utf-8">
+  <style>
+      a {
+        color: black;
+        text-decoration: none;
+      }
+      a:hover {
+        color: blue;
+        text-decoration: underline;
+      }
+      body {
+        font-family: sans-serif;
+      }
+      li {
+        list-style: none; /* IE displays bullets differently */
+      }
+      p {
+        padding-left: 2%;
+        padding-right: 2%;
+      }
+      ul {
+        padding-left: 2%;
+        padding-right: 2%;
+      }
+      .bold {
+        font-weight: bold;
+      }
+      .clear {
+        clear: both;
+      }
+      .contact {
+        text-align: center;
+      }
+      .generated {
+        color: #888888;
+        font-style: italic;
+        text-align: center;
+      }
+      .headline {
+        background-color: #e0e0e0;
+        border: 2px solid #0e0e0e;
+        font-weight: bold;
+        font-size: 110%;
+        margin: 6px 0px 6px 0px;
+        padding: 4px 4px 4px 4px;
+        text-align: center;
+      }
+      .left {
+        float: left;
+        font-weight: bold;
+      }
+      .right {
+        float: right;
+        font-weight: bold;
+        text-align: right;
+      }
+  </style>
+  <title>Evans Tucker's Resume</title>
+</head>
+<body>
+  <div class="contact">
+    <span class="bold">Evans Tucker</span><br>
+    <a href="tel:+1(971)336-3223">+1 (971) 336-3223</a><br>
+    <a href="mailto:evans.tucker@gmail.com">evans.tucker@gmail.com</a>
+  </div>
+  <div class="headline">
+    Biography
+  </div><span>Evans Tucker is an American systems administrator, best known for some brief company-wide outage, but occasionally recognized for his elegant code and excellent process documentation. The most notable companies he has worked for are: Charles Schwab, Indeed, and his current employer, athenahealth. In 2015, he and his family sold almost everything they owned, and moved from Austin, Texas to Portland, Oregon to escape the heat, mosquitoes, and ennui. Evans is a strong advocate for Linux, free/libre open source software, autonomous electric cars, space colonization, and some kind of post-scarcity economics world where work is optional, and we can just sit around philosophizing all day long.</span>
+  <div class="headline">
+    Experience
+  </div>
+  <div class="left">
+    Senior Member of Technical Staff at <a href="http://www.athenahealth.com/">athenahealth, Inc.</a> (Remote/Telecommute)
+  </div>
+  <div class="right">
+    2015-08-31 to Present (1.52 years)
+  </div>
+  <div class="clear">
+    <p>For most of 2016, I was part of a small team that was creating a new platform in AWS. I built custom CentOS 7 and Oracle Linux 7 images using Packer, then we used SparkleFormation - an infrastructure as code (IaC) tool that builds CloudFormation templates - to build ELBs, ASGs, and other BS. We set up GitLab to house all of the code, and used Puppet 4 with Hiera as our ENC to manage configuration.</p>
+    <p>App deploys, OS upgrades, developer requests, and on-call issues were another significant part of my workload. App deploys used to take two people four hours to complete. I wrote a plethora of scripts to automate this process: one for NetScaler load balancing, another that restarted all the services for each server role in the correct order, a health check script, and a wrapper script that encompassed all of these. The deploy process now takes one person 45 minutes, and most of that is just waiting for a service to build an index. Similarly for OS updates, I wrote a wrapper script that used my restart and health check scripts to automatically perform updates for an entire environment instead of updating servers individually. Regarding on-call issues, I wrote a "clean up" script with role-based rules. With it, I was able to reduce our free space alerts from an average of 55 per month to 5 per month. The NOC (the team that escalates alerts to our team) gave me kudos as well - they had a similar reduction in alerts.</p>
+    <p>Researching and building proofs of concept was one of the most challenging aspects of my job. Before the AWS project began, I was tasked with creating a POC for a new build and life cycle management process using Red Hat Satellite (which is essentially Foreman and Katello). Satellite was fairly complex, and, due to it's rigid nature, it didn't work well for our environments, so that project was scrapped. I also researched several monitoring solutions, recommended Sensu, and ended up building POCs for Zabbix and Zenoss. Unfortunately, this was during a turbulent time for our company, so the monitoring projects were abandoned as well.</p>
+    <p>Telecommuting was excellent! This was my first 100% remote/telecommuting position. Initially it was amazing to be able to focus on a project with almost no interruptions for hours at a time. As I got more popular, and started working with more teams, meetings began to chip away at the large blocks of contiguous time. Conveniently, we adopted an Agile methodology around the same time, so our monolithic projects were broken down into succinct stories. With frequent video conferencing and screen sharing, I was able to effectively work with my team across town, across the country, and globally. Despite having no office, I trained three new U.S. colleagues as well as two in Chennai, India. That being said, I am looking for an excuse to get a Tesla Model 3, so I'm willing to schlep into an office somewhere, gorge myself on free snacks, and socialize if the job requires it.</p>
+  </div>
+  <div class="left">
+    Systems Administrator at <a href="http://www.indeed.com/">Indeed, Inc.</a> (Austin, TX)
+  </div>
+  <div class="right">
+    2013-11-25 to 2015-05-21 (1.48 years)
+  </div>
+  <div class="clear">
+    <p>As a member of the Operations team, I supported around 1,200 CentOS 6 servers in 10 data centers around the world. I worked with RackSpace, SoftLayer, AWS, as well as in a local data center in Austin, where the bulk of our servers resided.</p>
+    <p>During a typical week, I worked with: Puppet with MCollective and Hiera using a YAML back end, Tomcat servers with Apache front ends load balanced with mod_jk or F5 BigIP LTMs, MySQL, RabbitMQ, Citrix XenServer, PagerDuty, Nagios, a Confluence wiki, Jira, Datadog monitoring and performance analysis, Dynect DNS and anycast load balancing, Cobbler, Jenkins, Rundeck, and Git... all pretty typical DevOps products and services.</p>
+    <p>Documentation is great! When I started, we had many conflicting and outdated documents. When I left, we still had most of those... but we also had many fantastic docs for important processes such as: provisioning and decommissioning servers, deploying internal applications, load balancing, and DNS configuration.</p>
+    <p>Regarding the "dev" side of DevOps, I had many scripting projects. Here are a few notable ones: fixing all deprecated variable references in our Puppet ERB templates, working around an infuriating design flaw by making logical volume configuration ignore inconsistent hard drive partitioning, and provisioning the majority of our business continuity data center by creating and plugging an inventory script into a Cobbler/XenServer script.</p>
+    <p>I have a T-shirt that says, "Let me drop everything and work on your problem." It's supposed to be sarcastic, but I interpreted it literally instead. I officially supported several teams of developers at Indeed; I attended our weekly meetings, collaborated with them to solve problems, etc. But, due to the fact that I was usually the first ops person to show up in the morning, I unofficially supported everybody - I often dropped everything to work on their problems until the rest of my team arrived.</p>
+    <p>When there were no fires to put out, I would switch roles to Data Janitor or Technical Debt Collector. I did a lot of code maintenance and auditing in what little free time I had. Notable projects were: using a script to find and reclaim unused LVs to free up space on our SAN; simplifying, compacting, refactoring, or just deleting old code, scripts, and documentation; and programmatically auditing our missing or wrong DNS PTR records.</p>
+  </div>
+  <div class="left">
+    Senior Staff - Technical Support at <a href="http://www.schwab.com/">Charles Schwab & Co., Inc.</a> (Austin, TX)
+  </div>
+  <div class="right">
+    2010-03-15 to 2013-04-02 (3.05 years)
+  </div>
+  <div class="clear">
+    <ul>
+      <li>• Joined the Data Center Operations shift B team, and was later promoted to team lead on shift A.</li>
+      <li>• Regularly directed large, multi-team conference calls to restore service during outages.</li>
+      <li>• Followed ITIL best practices, specifically incident, problem, and change management.</li>
+      <li>• Coordinated and executed changes in the production environment using several tools including BMC Remedy Action Request system, HP Operations Orchestration, CiscoWorks Hosting Solution Engine (HSE), Cisco Global Site Selector (GSS), and Cisco Application Networking Manager (ANM).</li>
+      <li>• Remotely assisted on-site technicians troubleshoot and repair server and storage hardware.</li>
+      <li>• Monitored Linux, VMware vSphere, Windows, Solaris, and AIX services and hardware using Managed Objects v4, and worked with the Distributed Network and Automation team to reduce excessive alerting.</li>
+    </ul>
+  </div>
+  <div class="left">
+    System Administrator at <a href="http://www.renewdata.com/">Renew Data Corp.</a> (Austin, TX)
+  </div>
+  <div class="right">
+    2009-10-15 to 2010-03-11 (0.40 years)
+  </div>
+  <div class="clear">
+    <ul>
+      <li>• Installed, configured, and supported IBM System x servers in single and multi-node configurations.</li>
+      <li>• Supported HP ProLiant servers (G2 through G6) and StorageWorks 30 Modular Smart Arrays.</li>
+      <li>• Supported over 500 virtual machines on 28 hosts in VMware vCenter Server 4.0.0.</li>
+      <li>• Administered the Kantech EntraPass proximity card system, as well as the Bioscrypt V-Pass and V-Flex biometric security system.</li>
+      <li>• Supported and assigned RSA SecurID software tokens in conjunction with F5 Networks FirePass appliance.</li>
+      <li>• Audited and reconfigured the Aastra NeXspan L phone system.</li>
+    </ul>
+  </div>
+  <div class="left">
+    Network Administrator II at <a href="http://www.engauge.com/">Engauge Marketing, LLC.</a> (Austin, TX)
+  </div>
+  <div class="right">
+    2007-11-01 to 2009-09-15 (1.87 years)
+  </div>
+  <div class="clear">
+    <ul>
+      <li>• Supported 42 servers, 43 employees, and provided intermittent support for clients in a diverse environment running Windows XP, Windows 7, Windows 2000/2003/2008, Debian Linux 4, Ubuntu Linux 8.10 and 9.04, and Apple OS X 10.4 and 10.5.</li>
+      <li>• Installed new services to bring the company up to date, specifically Spiceworks, Dell OpenManage Server Administrator, WSUS 3.0 SP1, an FTP/SFTP server, and Backup Exec 12.5 with a Dell ML6000 30-slot tape autoloader.</li>
+      <li>• Virtualized our environment using VMware ESXi, reducing our server room footprint from seven racks to four.</li>
+      <li>• Consolidated various web, file, and SQL servers together and created processes to keep the network growing in a scalable, structured manner.</li>
+      <li>• Managed large SQL servers for international clients including Avocent, Best Buy For Business, CDW, COPC, Huntington Bank, Logitech, Sony, and Tivo.</li>
+      <li>• Maintained our Nortel Meridian 1 Option 11 phone system with integrated conference bridge.</li>
+      <li>• Migrated the entire Austin office including all user accounts, computers, and e-mail to a new Active Directory domain.</li>
+      <li>• Configured site to site VPNs on a Cisco ASA 5510 and later a SonicWALL NSA 3500 to other Engauge offices around the country as well as several client offices.</li>
+      <li>• Trained and managed new members of the IT team.</li>
+      <li>• Documented all aspects of my job including (network maps, in-house processes, etc.) and created spreadsheets for auditing the process of setting up new users, workstations, and servers as well as decommissioning them.</li>
+      <li>• Researched and created a disaster recovery plan.</li>
+    </ul>
+  </div>
+  <div class="left">
+    Network Administrator at <a href="http://www.winternals.com/">Winternals Software LP</a> (Austin, TX)
+  </div>
+  <div class="right">
+    2004-01-30 to 2007-03-30 (3.16 years)
+  </div>
+  <div class="clear">
+    <ul>
+      <li>• Configured, installed, upgraded, and supported hardware including workstations, laptops, Dell PowerEdge servers, PowerVault disk arrays and tape libraries, APC UPS products, and Cisco switches, routers, and firewalls.</li>
+      <li>• Set up and supported operating systems, server software, and applications on all computers in the company including Windows 2000/XP/2003, Debian Linux, and Macintosh OS X, Active Directory, DNS, Exchange 2000, IIS, SharePoint, SQL Server 2000, WSUS, Apache, Exim, MySQL, Nagios, Request Tracker, Blackberry Enterprise Server, Goldmine, Veritas Backup Exec, VMware, Trend Micro SMB, and our own products: Winternals Recovery Manager, Defrag Manager, and Protection Manager.</li>
+      <li>• Configured and maintained the Iwatsu/ADIX telecommunications system.</li>
+      <li>• Designed, upgraded, and installed various systems such as the ADT security system, fiber network, Cisco 4006 switch, and our rack at the colocation facility.</li>
+      <li>• Purchased software, hardware, and services for the company, and maintained good vendor relations with Dell, CDW, and our Internet provider, Time Warner.</li>
+      <li>• Established and maintained network users, user environment, file shares, and security.</li>
+      <li>• Trained users on software and equipment usage.</li>
+      <li>• Tracked my work and answered users' questions using the Request Tracker ticketing system.</li>
+      <li>• Developed and implemented disaster recovery procedures.</li>
+      <li>• Responded to system alerts 24 hours a day, 7 days a week.</li>
+    </ul>
+  </div>
+  <div class="headline">
+    Education
+  </div>
+  <div class="left">
+    <a href="http://www.waco.tstc.edu/">Texas State Technical College</a>
+  </div>
+  <div class="right">
+    Associate of Applied Science in Computer Science Technology
+  </div>
+  <div class="clear">
+    <ul>
+      <li>• Cumulative GPA 3.225</li>
+      <li>• Awarded President's Honor Roll</li>
+    </ul>
+  </div>
+  <div class="generated">
+    This resume isn't a Word doc or a PDF - it's code! You can see the source here: <a class="generated" href="https://gitlab.com/evanstucker/resume">https://gitlab.com/evanstucker/resume</a>
+  </div>
+</body>
+</html>

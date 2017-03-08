@@ -1,0 +1,611 @@
+---
+contact:
+  name: Evans Tucker
+  phone: "+1 (971) 336-3223"
+  email: evans.tucker@gmail.com
+biography: 'Evans Tucker is an American systems administrator, best known for some
+  brief company-wide outage, but occasionally recognized for his elegant code and
+  excellent process documentation. The most notable companies he has worked for are:
+  Charles Schwab, Indeed, and his current employer, athenahealth. In 2015, he and
+  his family sold almost everything they owned, and moved from Austin, Texas to Portland,
+  Oregon to escape the heat, mosquitoes, and ennui. Evans is a strong advocate for
+  Linux, free/libre open source software, autonomous electric cars, space colonization,
+  and some kind of post-scarcity economics world where work is optional, and we can
+  just sit around philosophizing all day long.'
+experience:
+- tags: current story_time
+  title: Senior Member of Technical Staff
+  location: Remote/Telecommute
+  company: athenahealth, Inc.
+  address: 311 Arsenal Street
+  city: Watertown
+  state: Massachusetts
+  zip_code: '02472'
+  phone: "+1 (800) 981-5084"
+  url: http://www.athenahealth.com/
+  supervisor: Cameron King
+  start_date: 2015-08-31
+  end_date: 
+  starting_compensation: V5syJDpXQpVS7DfSd3eMyA==
+  ending_compensation: ez5mHtoEOp+BeKQxIP+K8A==
+  description:
+  - For most of 2016, I was part of a small team that was creating a new platform
+    in AWS. I built custom CentOS 7 and Oracle Linux 7 images using Packer, then we
+    used SparkleFormation - an infrastructure as code (IaC) tool that builds CloudFormation
+    templates - to build ELBs, ASGs, and other BS. We set up GitLab to house all of
+    the code, and used Puppet 4 with Hiera as our ENC to manage configuration.
+  - 'App deploys, OS upgrades, developer requests, and on-call issues were another
+    significant part of my workload. App deploys used to take two people four hours
+    to complete. I wrote a plethora of scripts to automate this process: one for NetScaler
+    load balancing, another that restarted all the services for each server role in
+    the correct order, a health check script, and a wrapper script that encompassed
+    all of these. The deploy process now takes one person 45 minutes, and most of
+    that is just waiting for a service to build an index. Similarly for OS updates,
+    I wrote a wrapper script that used my restart and health check scripts to automatically
+    perform updates for an entire environment instead of updating servers individually.
+    Regarding on-call issues, I wrote a "clean up" script with role-based rules. With
+    it, I was able to reduce our free space alerts from an average of 55 per month
+    to 5 per month. The NOC (the team that escalates alerts to our team) gave me kudos
+    as well - they had a similar reduction in alerts.'
+  - Researching and building proofs of concept was one of the most challenging aspects
+    of my job. Before the AWS project began, I was tasked with creating a POC for
+    a new build and life cycle management process using Red Hat Satellite (which is
+    essentially Foreman and Katello). Satellite was fairly complex, and, due to it's
+    rigid nature, it didn't work well for our environments, so that project was scrapped.
+    I also researched several monitoring solutions, recommended Sensu, and ended up
+    building POCs for Zabbix and Zenoss. Unfortunately, this was during a turbulent
+    time for our company, so the monitoring projects were abandoned as well.
+  - Telecommuting was excellent! This was my first 100% remote/telecommuting position.
+    Initially it was amazing to be able to focus on a project with almost no interruptions
+    for hours at a time. As I got more popular, and started working with more teams,
+    meetings began to chip away at the large blocks of contiguous time. Conveniently,
+    we adopted an Agile methodology around the same time, so our monolithic projects
+    were broken down into succinct stories. With frequent video conferencing and screen
+    sharing, I was able to effectively work with my team across town, across the country,
+    and globally. Despite having no office, I trained three new U.S. colleagues as
+    well as two in Chennai, India. That being said, I am looking for an excuse to
+    get a Tesla Model 3, so I'm willing to schlep into an office somewhere, gorge
+    myself on free snacks, and socialize if the job requires it.
+  reason_for_leaving: ''
+- tags: current story_time
+  title: Systems Administrator
+  location: Austin, TX
+  company: Indeed, Inc.
+  address: 7501 North Capital of Texas Highway Building B
+  city: Austin
+  state: Texas
+  zip_code: '78731'
+  phone: 
+  url: http://www.indeed.com/
+  supervisor: Jason Koppe
+  start_date: 2013-11-25
+  end_date: 2015-05-21
+  starting_compensation: Tltl5iRlLtMC4KyR74kmuA==
+  ending_compensation: yu52bttdsD0sZYHndXs0wA==
+  description:
+  - As a member of the Operations team, I supported around 1,200 CentOS 6 servers
+    in 10 data centers around the world. I worked with RackSpace, SoftLayer, AWS,
+    as well as in a local data center in Austin, where the bulk of our servers resided.
+  - 'During a typical week, I worked with: Puppet with MCollective and Hiera using
+    a YAML back end, Tomcat servers with Apache front ends load balanced with mod_jk
+    or F5 BigIP LTMs, MySQL, RabbitMQ, Citrix XenServer, PagerDuty, Nagios, a Confluence
+    wiki, Jira, Datadog monitoring and performance analysis, Dynect DNS and anycast
+    load balancing, Cobbler, Jenkins, Rundeck, and Git... all pretty typical DevOps
+    products and services.'
+  - 'Documentation is great! When I started, we had many conflicting and outdated
+    documents. When I left, we still had most of those... but we also had many fantastic
+    docs for important processes such as: provisioning and decommissioning servers,
+    deploying internal applications, load balancing, and DNS configuration.'
+  - 'Regarding the "dev" side of DevOps, I had many scripting projects. Here are a
+    few notable ones: fixing all deprecated variable references in our Puppet ERB
+    templates, working around an infuriating design flaw by making logical volume
+    configuration ignore inconsistent hard drive partitioning, and provisioning the
+    majority of our business continuity data center by creating and plugging an inventory
+    script into a Cobbler/XenServer script.'
+  - I have a T-shirt that says, "Let me drop everything and work on your problem."
+    It's supposed to be sarcastic, but I interpreted it literally instead. I officially
+    supported several teams of developers at Indeed; I attended our weekly meetings,
+    collaborated with them to solve problems, etc. But, due to the fact that I was
+    usually the first ops person to show up in the morning, I unofficially supported
+    everybody - I often dropped everything to work on their problems until the rest
+    of my team arrived.
+  - 'When there were no fires to put out, I would switch roles to Data Janitor or
+    Technical Debt Collector. I did a lot of code maintenance and auditing in what
+    little free time I had. Notable projects were: using a script to find and reclaim
+    unused LVs to free up space on our SAN; simplifying, compacting, refactoring,
+    or just deleting old code, scripts, and documentation; and programmatically auditing
+    our missing or wrong DNS PTR records.'
+  reason_for_leaving: Moved to Portland, Oregon. Tried to negotiate working remotely,
+    but was unable to come to a mutually beneficial agreement.
+- tags: current
+  title: Senior Staff - Technical Support
+  location: Austin, TX
+  company: Charles Schwab &amp; Co., Inc.
+  address: 12401 Research Boulevard
+  city: Austin
+  state: Texas
+  zip_code: '78727'
+  phone: "+1 (512) 372-8397"
+  url: http://www.schwab.com/
+  supervisor: Irby Gaudet
+  start_date: 2010-03-15
+  end_date: 2013-04-02
+  starting_compensation: xxY9JloqAUTMggmR9WcIBw==
+  ending_compensation: A2xQyVw5ryf4dCRhN6EyNg==
+  description:
+  - "• Joined the Data Center Operations shift B team, and was later promoted to team
+    lead on shift A."
+  - "• Regularly directed large, multi-team conference calls to restore service during
+    outages."
+  - "• Followed ITIL best practices, specifically incident, problem, and change management."
+  - "• Coordinated and executed changes in the production environment using several
+    tools including BMC Remedy Action Request system, HP Operations Orchestration,
+    CiscoWorks Hosting Solution Engine (HSE), Cisco Global Site Selector (GSS), and
+    Cisco Application Networking Manager (ANM)."
+  - "• Remotely assisted on-site technicians troubleshoot and repair server and storage
+    hardware."
+  - "• Monitored Linux, VMware vSphere, Windows, Solaris, and AIX services and hardware
+    using Managed Objects v4, and worked with the Distributed Network and Automation
+    team to reduce excessive alerting."
+  reason_for_leaving: I wanted to change industries and do more technical work.
+- tags: current
+  title: System Administrator
+  location: Austin, TX
+  company: Renew Data Corp.
+  address: 9500 Arboretum Boulevard Suite 130
+  city: Austin
+  state: Texas
+  zip_code: '78759'
+  phone: "+1 (888) 811-3789"
+  url: http://www.renewdata.com/
+  supervisor: Tony Colon
+  start_date: 2009-10-15
+  end_date: 2010-03-11
+  starting_compensation: KCiwi5gQW/PhUGKIpcXYqw==
+  ending_compensation: KCiwi5gQW/PhUGKIpcXYqw==
+  description:
+  - "• Installed, configured, and supported IBM System x servers in single and multi-node
+    configurations."
+  - "• Supported HP ProLiant servers (G2 through G6) and StorageWorks 30 Modular Smart
+    Arrays."
+  - "• Supported over 500 virtual machines on 28 hosts in VMware vCenter Server 4.0.0."
+  - "• Administered the Kantech EntraPass proximity card system, as well as the Bioscrypt
+    V-Pass and V-Flex biometric security system."
+  - "• Supported and assigned RSA SecurID software tokens in conjunction with F5 Networks
+    FirePass appliance."
+  - "• Audited and reconfigured the Aastra NeXspan L phone system."
+  reason_for_leaving: Renew reneged on their promise to hire me at the end of my contract.
+- tags: current
+  title: Network Administrator II
+  location: Austin, TX
+  company: Engauge Marketing, LLC.
+  address: 11401 Century Oaks Terrace Suite 400
+  city: Austin
+  state: Texas
+  zip_code: '78758'
+  phone: "+1 (512) 220-7414"
+  url: http://www.engauge.com/
+  supervisor: Bob Elmer
+  start_date: 2007-11-01
+  end_date: 2009-09-15
+  starting_compensation: IObsnU2+fH2Qfiy68ykPzg==
+  ending_compensation: IObsnU2+fH2Qfiy68ykPzg==
+  description:
+  - "• Supported 42 servers, 43 employees, and provided intermittent support for clients
+    in a diverse environment running Windows XP, Windows 7, Windows 2000/2003/2008,
+    Debian Linux 4, Ubuntu Linux 8.10 and 9.04, and Apple OS X 10.4 and 10.5."
+  - "• Installed new services to bring the company up to date, specifically Spiceworks,
+    Dell OpenManage Server Administrator, WSUS 3.0 SP1, an FTP/SFTP server, and Backup
+    Exec 12.5 with a Dell ML6000 30-slot tape autoloader."
+  - "• Virtualized our environment using VMware ESXi, reducing our server room footprint
+    from seven racks to four."
+  - "• Consolidated various web, file, and SQL servers together and created processes
+    to keep the network growing in a scalable, structured manner."
+  - "• Managed large SQL servers for international clients including Avocent, Best
+    Buy For Business, CDW, COPC, Huntington Bank, Logitech, Sony, and Tivo."
+  - "• Maintained our Nortel Meridian 1 Option 11 phone system with integrated conference
+    bridge."
+  - "• Migrated the entire Austin office including all user accounts, computers, and
+    e-mail to a new Active Directory domain."
+  - "• Configured site to site VPNs on a Cisco ASA 5510 and later a SonicWALL NSA
+    3500 to other Engauge offices around the country as well as several client offices."
+  - "• Trained and managed new members of the IT team."
+  - "• Documented all aspects of my job including (network maps, in-house processes,
+    etc.) and created spreadsheets for auditing the process of setting up new users,
+    workstations, and servers as well as decommissioning them."
+  - "• Researched and created a disaster recovery plan."
+  reason_for_leaving: I received no raises, no budget for my department, and no hope
+    for improvement for two years, so I trained my remote couterpart, and offered
+    to work as needed on an hourly basis before resigning.
+- tags: current
+  title: Network Administrator
+  location: Austin, TX
+  company: Winternals Software LP
+  address: 3101 Bee Caves Road Suite 150
+  city: Austin
+  state: Texas
+  zip_code: '78746'
+  phone: "+1 (512) 330-9130"
+  url: http://www.winternals.com/
+  supervisor: Matthew Bryce
+  start_date: 2004-01-30
+  end_date: 2007-03-30
+  starting_compensation: p7rzaBWJ0vZC8E5xyJ+XVg==
+  ending_compensation: QyVR8z9RxaQm7F1duQxCCg==
+  description:
+  - "• Configured, installed, upgraded, and supported hardware including workstations,
+    laptops, Dell PowerEdge servers, PowerVault disk arrays and tape libraries, APC
+    UPS products, and Cisco switches, routers, and firewalls."
+  - "• Set up and supported operating systems, server software, and applications on
+    all computers in the company including Windows 2000/XP/2003, Debian Linux, and
+    Macintosh OS X, Active Directory, DNS, Exchange 2000, IIS, SharePoint, SQL Server
+    2000, WSUS, Apache, Exim, MySQL, Nagios, Request Tracker, Blackberry Enterprise
+    Server, Goldmine, Veritas Backup Exec, VMware, Trend Micro SMB, and our own products:
+    Winternals Recovery Manager, Defrag Manager, and Protection Manager."
+  - "• Configured and maintained the Iwatsu/ADIX telecommunications system."
+  - "• Designed, upgraded, and installed various systems such as the ADT security
+    system, fiber network, Cisco 4006 switch, and our rack at the colocation facility."
+  - "• Purchased software, hardware, and services for the company, and maintained
+    good vendor relations with Dell, CDW, and our Internet provider, Time Warner."
+  - "• Established and maintained network users, user environment, file shares, and
+    security."
+  - "• Trained users on software and equipment usage."
+  - "• Tracked my work and answered users' questions using the Request Tracker ticketing
+    system."
+  - "• Developed and implemented disaster recovery procedures."
+  - "• Responded to system alerts 24 hours a day, 7 days a week."
+  reason_for_leaving: Winternals was acquired by Microsoft.
+- tags: 
+  title: Assistant Catastrophe Adjuster
+  location: Norfolk, VA
+  company: Martin Arguello
+  address: 
+  city: Norfolk
+  state: Virginia
+  zip_code: 
+  phone: "+1 (979) 255-5003"
+  url: mailto:arguello@earthlink.net
+  supervisor: Martin Arguello
+  start_date: 2003-09-20
+  end_date: 2003-10-25
+  starting_compensation: "/r7oInfurbZa8gPfARKR1g=="
+  ending_compensation: "/r7oInfurbZa8gPfARKR1g=="
+  description:
+  - "• Contacted insurance policy holders and scheduled appointments."
+  - "• Drove the adjusting team to damage sites across eastern Virginia."
+  - "• Inspected roofs, siding, house interiors, and personal possessions for hurricane
+    damage."
+  - "• Sketched roof, siding, and interior diagrams and measured damaged areas."
+  - "• Performed the various office duties needed to close the policy holders' files."
+  reason_for_leaving: Position was temporary.
+- tags: 
+  title: CSD Network Tech/Specialist
+  location: Round Rock, TX
+  company: Dell Corporation
+  address: One Dell Way
+  city: Round Rock
+  state: Texas
+  zip_code: '78682'
+  phone: "+1 (512) 723-9134"
+  url: http://www.dell.com/
+  supervisor: Tony Bass
+  start_date: 2002-07-15
+  end_date: 2003-07-17
+  starting_compensation: QmTKZDUC6R0APLeOOL3AXA==
+  ending_compensation: zrg1WmpWGvKZ9TCz194h2g==
+  description:
+  - "• Provided hardware tech support for Precision Workstations and PowerEdge Servers."
+  - "• Provided operating system and driver support for all versions of Windows and
+    Red Hat Linux."
+  - "• Administered Dell's internal Precision Workstation website."
+  reason_for_leaving: Dell offered me another, better phone support position, but
+    I didn't want to be on the phones anymore.
+- tags: 
+  title: Technical Support
+  location: Bryan, TX
+  company: DecisionOne
+  address: 3101 University Drive East
+  city: Bryan
+  state: Texas
+  zip_code: '77802'
+  phone: "+1 (979) 774-2700"
+  url: http://www.decisionone.com/
+  supervisor: Noel Templeton
+  start_date: 2001-10-08
+  end_date: 2002-03-08
+  starting_compensation: YoKEHKE8UYPs0Awa+wFLRA==
+  ending_compensation: YoKEHKE8UYPs0Awa+wFLRA==
+  description:
+  - "• Provided tech support for QuixNet dial-up connections."
+  - "• Provided tech support for Covad DSL and T1 lines."
+  - "• Performed customer service duties for both of the companies above."
+  reason_for_leaving: Moved to Dallas.
+- tags: 
+  title: Assistant Catastrophe Adjuster
+  location: Omaha, NE
+  company: Martin Arguello
+  address: 
+  city: Omaha
+  state: Nebraska
+  zip_code: 
+  phone: "+1 (979) 255-5003"
+  url: mailto:arguello@earthlink.net
+  supervisor: Martin Arguello
+  start_date: 2001-04-23
+  end_date: 2001-06-11
+  starting_compensation: d8QK/UbY8XmFFdUIw8HRdw==
+  ending_compensation: d8QK/UbY8XmFFdUIw8HRdw==
+  description:
+  - "• Contacted insurance policy holders and scheduled appointments."
+  - "• Drove the adjusting team to damage sites across southern and western Iowa."
+  - "• Inspected roofs, siding, and personal possessions for hail damage."
+  - "• Sketched roof and siding diagrams and measure damaged areas."
+  - "• Performed the various office duties needed to close the policy holders' files."
+  reason_for_leaving: Position was temporary.
+- tags: 
+  title: Consultant
+  location: Madison, WI
+  company: Exacta Corporation
+  address: 5325 Wall Street
+  city: Madison
+  state: Wisconsin
+  zip_code: '53718'
+  phone: "+1 (608) 241-5100"
+  url: http://www.exactacorp.com/
+  supervisor: Hank
+  start_date: 2000-01-16
+  end_date: 2001-03-31
+  starting_compensation: BUaReZ4QfZoWw+UgrDusbw==
+  ending_compensation: DDxFCjkmuEGpAk8wxhqjSw==
+  description:
+  - "• Administered and performed hardware repairs on the intranet web server at Alliant
+    Energy's System Operations Center (SOC)."
+  - "• Redesigned the SOC's website and administered a FrontPage sub-web for the SOC's
+    Generation group."
+  - "• Programmed several web-based user interfaces including an advanced problem
+    reporting system using an Oracle database, PHP, and JavaScript."
+  - "• Ported the problem reporting system to ASP/VBScript for the American Transmission
+    Company."
+  - "• Performed various troubleshooting tasks on the SOC's LAN."
+  reason_for_leaving: Moved back to Texas.
+- tags: 
+  title: Technical Support
+  location: San Antonio, TX
+  company: Texas.Net
+  address: 405 North Saint Mary's Street
+  city: San Antonio
+  state: Texas
+  zip_code: '78205'
+  phone: "+1 (210) 357-9200"
+  url: http://www.texas.net/
+  supervisor: Tim Yaeger
+  start_date: 1999-09-10
+  end_date: 2000-01-20
+  starting_compensation: UztdlDsk18qrU9YVM1wZRQ==
+  ending_compensation: 8ViZxGIPTG/5mBsEuPTZDw==
+  description:
+  - "• Provided phone and e-mail tech support for dial-up and DSL connections."
+  - "• Provided customer service for business and residential accounts."
+  reason_for_leaving: Obtained a web programming position at Exacta.
+- tags: 
+  title: Hardware Technician
+  location: San Antonio, TX
+  company: Amenity Computer Services
+  address: 7126 Eckhert Road Suite 9
+  city: San Antonio
+  state: Texas
+  zip_code: '78238'
+  phone: "+1 (210) 647-0125"
+  url: http://www.askacs.com/
+  supervisor: Jeff Chamberlain
+  start_date: 1999-07-06
+  end_date: 1999-08-30
+  starting_compensation: '08rjaE4lrjQGXIIsrT729w=='
+  ending_compensation: '08rjaE4lrjQGXIIsrT729w=='
+  description:
+  - "• Built, upgraded, and repaired PC systems."
+  - "• Provided tech support for hardware and software problems."
+  fun_facts:
+  - I actually got this job by opening the phone book, calling every computer store
+    in town, and asking about open positions. As you can see, I didn't even get past
+    "a" before I found work. I was pretty proud of myself for being so assertive.
+  - This was the best job interview I ever had. I came in and the guy just gave me
+    a PC with about thirty things wrong with it and said, "fix it". There were jumpers
+    in the wrong position, partially inserted cards, cables plugged in backwards,
+    bent pins, etc. I got it working pretty quickly and he hired me on the spot.
+  reason_for_leaving: Found a better position at Texas.Net.
+- tags: 
+  title: Technical Support Volunteer
+  location: Waco, TX
+  company: TSTC Student Online Services
+  address: 3801 Campus Drive
+  city: Waco
+  state: Texas
+  zip_code: '76705'
+  phone: "+1 (800) 792-8784"
+  url: http://www.waco.tstc.edu/
+  supervisor: Susan Meyers
+  start_date: 1997
+  end_date: 1998
+  starting_compensation: vH0W/JJ0LxWie8k2T6LSpw==
+  ending_compensation: vH0W/JJ0LxWie8k2T6LSpw==
+  description:
+  - "• Provided in-house and on-site hardware tech support for students' PC systems."
+  - "• Repaired various problems on the campus network (mostly rewiring bad RJ-45
+    jacks)."
+  - "• Designed TSTC's Quake II website and maintained the Quake II server."
+  - "• Provided phone tech support for TSTC's online services."
+  - "• Administered several web and file servers."
+  reason_for_leaving: Wanted to take more classes.
+- tags: 
+  title: Sandwich Artist
+  location: College Station, TX
+  company: Subway
+  address: 1500 Harvey Road
+  city: College Station
+  state: Texas
+  zip_code: '77840'
+  phone: "+1 (979) 764-8602"
+  url: http://www.subway.com/
+  supervisor: Belinda
+  start_date: 1997-07-15
+  end_date: 1997-10-15
+  starting_compensation: 3n335pRPJEGJzcmRmFrUhQ==
+  ending_compensation: "/zcdA7VTPfRWVd39VK0dOQ=="
+  description:
+  - "• Prepared and assembled food into aesthetically pleasing sandwiches."
+  - "• Performed cashier duties."
+  - "• Cleaned."
+  - "• Closed the store and completed inventory and safe-deposit paperwork."
+  reason_for_leaving: Went back to college.
+- tags: 
+  title: Express Associate
+  location: Waco, TX
+  company: Express Personnel Services
+  address: 6321 Sanger Avenue
+  city: Waco
+  state: Texas
+  zip_code: '76710'
+  phone: "+1 (254) 776-3302"
+  url: http://www.expresspersonnel.com/
+  supervisor: 
+  start_date: 1996-11-01
+  end_date: 1996-11-30
+  starting_compensation: 2XpwFZ2XfmiBejJb0L6kgA==
+  ending_compensation: e9YJSvRXQKnoYjlwKRXWRg==
+  description:
+  - "• Performed some simple assembly line work at a medical supplies factory."
+  - "• Engaged in some outdoor manual labor at a sheetrock company."
+  reason_for_leaving: They didn't provide enough jobs.
+- tags: 
+  title: Maintenance Crew
+  location: Bryan, TX
+  company: 50 Off Store
+  address: Manor East Mall
+  city: Bryan
+  state: Texas
+  zip_code: '77802'
+  phone: 
+  url: 
+  supervisor: Mr. Bush
+  start_date: 1996-05-10
+  end_date: 1996-06-07
+  starting_compensation: eacjPJvIUwjOa6fscYxz9A==
+  ending_compensation: eacjPJvIUwjOa6fscYxz9A==
+  description:
+  - "• Unloaded, unpacked, tagged, and shelved the store's inventory."
+  - "• Vacuumed and mopped the entire department store."
+  - "• Executed astounding janitorial feats on the store's lavatory."
+  reason_for_leaving: Manager yelled at everyone all the time. Level of abuse far
+    exceeded pay.
+- tags: 
+  title: Sandwich Artist
+  location: Bryan, TX
+  company: Subway
+  address: 3601 East 29th Street
+  city: Bryan
+  state: Texas
+  zip_code: '77802'
+  phone: "+1 (979) 846-4972"
+  url: http://www.subway.com/
+  supervisor: Candy
+  start_date: 1996-02-15
+  end_date: 1996-08-31
+  starting_compensation: eacjPJvIUwjOa6fscYxz9A==
+  ending_compensation: wU/oyXQ8+oNEBdQCA1GQEA==
+  description:
+  - "• (See the Subway entry above.)"
+  reason_for_leaving: Left for college.
+- tags: 
+  title: Customer Service Representative
+  location: Bryan, TX
+  company: McDonald's
+  address: 825 East Villa Maria Road
+  city: Bryan
+  state: Texas
+  zip_code: '77802'
+  phone: "+1 (979) 822-3011"
+  url: http://www.mcdonalds.com/
+  supervisor: Sherry
+  start_date: 1994-05-01
+  end_date: 1995-02-28
+  starting_compensation: pDxq9Fw0sjBcNdMauBeATw==
+  ending_compensation: eacjPJvIUwjOa6fscYxz9A==
+  description:
+  - "• Flipped burgers, toasted buns, fried fries, and performed other miscellaneous
+    food preparation tasks."
+  - "• Attended the drive-thru and front counter cash registers."
+  - "• Taught myself to decipher the distorted, sloppy noises generated by my headset
+    and generate fairly accurate food orders."
+  - "• Emptied grease traps, mopped, and washed dishes."
+  - "• Developed passable marksmanship with sauce guns during the counter staff raids
+    into kitchen territory."
+  reason_for_leaving: My first foray into the whole "employement" thing literally
+    left a bad taste in my mouth.
+certifications:
+- name: Red Hat Certified Engineer (RHCE, expired)
+  url: https://www.redhat.com/wapps/training/certification/verify.html?certNumber=111-163-366&isSearch=False&verify=Verify
+- name: HE.NET IPv6 Certified
+  url: http://ipv6.he.net/certification/scoresheet.php?pass_name=evanstucker
+education:
+- tags: college
+  name: Texas State Technical College
+  address: 3801 Campus Drive
+  city: Waco
+  state: Texas
+  zip_code: '76705'
+  phone: "+1 (800) 792-8784"
+  url: http://www.waco.tstc.edu/
+  degree: Associate of Applied Science
+  major: Computer Science Technology
+  start_date: 1996-09-05
+  end_date: 2000-05-23
+  achievements:
+  - "• Cumulative GPA 3.225"
+  - "• Awarded President's Honor Roll"
+- tags: joke
+  name: Texas A&M University
+  address: Student Records at Heaton Hall Room 112
+  city: College Station
+  state: Texas
+  zip_code: '77843'
+  phone: "+1 (979) 845-1003"
+  url: http://www.tamu.edu/
+  degree: Incomplete
+  major: Computer Science
+  start_date: 1996
+  end_date: 1996
+  achievements:
+  - "• Boycotted homework."
+  - • Managed to get a "B" in my Computer Science class anyway.
+- tags: heaven
+  name: Alternative Choice for Education
+  address: 1307 Memorial Drive
+  city: Bryan
+  state: Texas
+  zip_code: '77802'
+  phone: "+1 (979) 731-7855"
+  url: http://www.bryanisd.org/school.asp?schoolID=9
+  degree: High School Diploma
+  major: 
+  start_date: 1995
+  end_date: 1995
+  achievements:
+  - "• Went to school from noon to four."
+  - "• Didn't do any homework."
+  - "• Screwed around."
+  - "• Still got a high school diploma! (Priceless.)"
+- tags: high_school
+  name: Bryan High School
+  address: 3401 East 29th Street
+  city: Bryan
+  state: Texas
+  zip_code: '77802'
+  phone: "+1 (979) 731-7400"
+  url: http://www.ci.bryanisd.org/bryanhs/
+  degree: Incomplete
+  major: 
+  start_date: 1991
+  end_date: 1995
+  achievements:
+  - "• Scored 1210 on the SAT (560 Verbal, 670 Mathematics)."
