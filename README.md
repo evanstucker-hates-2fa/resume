@@ -18,14 +18,14 @@ For as long as I can remember, my resume has been this terrifying XML document t
 
 | File | Description |
 | -------- | -------- |
-| .gitignore | Ignores any decrypted files. |
-| Evans Tucker's Resume.html | The output of this process. |
-| README.md | This. |
-| decrypt_yaml.rb | Decrypts the encrypted_resume.yaml file. |
+| [.gitignore](.gitignore) | Ignores any decrypted files. |
+| [Evans Tucker's Resume.html](Evans Tucker's Resume.html) | The output of this process. |
+| [README.md](README.md) | This. |
+| [decrypt_yaml.rb](decrypt_yaml.rb) | Decrypts the encrypted_resume.yaml file. |
 | decrypted_resume.yaml | Not in this repo, because it contains secret info. This is what resume.rb uses as input. |
-| encrypt_yaml.rb | Encrypts the decrypted_resume.yaml file. |
-| encrypted_resume.yaml | Resume with sensitive fields encrypted. |
-| resume.rb | Reads YAML, outputs HTML. |
+| [encrypt_yaml.rb](encrypt_yaml.rb) | Encrypts the decrypted_resume.yaml file. |
+| [encrypted_resume.yaml](encrypted_resume.yaml) | Resume with sensitive fields encrypted. |
+| [resume.rb](resume.rb) | Reads YAML, outputs HTML. |
 
 # Process
 
