@@ -1,23 +1,5 @@
 #!/usr/bin/env ruby
 
-#  _______/\\\\\________/\\\\____________/\\\\______/\\\\\\\\\\\\_        
-#   _____/\\\///\\\_____\/\\\\\\________/\\\\\\____/\\\//////////__       
-#    ___/\\\/__\///\\\___\/\\\//\\\____/\\\//\\\___/\\\_____________      
-#     __/\\\______\//\\\__\/\\\\///\\\/\\\/_\/\\\__\/\\\____/\\\\\\\_     
-#      _\/\\\_______\/\\\__\/\\\__\///\\\/___\/\\\__\/\\\___\/////\\\_    
-#       _\//\\\______/\\\___\/\\\____\///_____\/\\\__\/\\\_______\/\\\_   
-#        __\///\\\__/\\\_____\/\\\_____________\/\\\__\/\\\_______\/\\\_  
-#         ____\///\\\\\/______\/\\\_____________\/\\\__\//\\\\\\\\\\\\/__ 
-#          ______\/////________\///______________\///____\////////////____
-#
-# Are you in here reading my source code! That's fantastic! I like to spend
-# time ensuring that my code is valid, simple, and readable, even if I'm the
-# only one that will ever see it. This is a pretty tiny file, so there's not a
-# lot to see, but I've got at least one Easter egg in here.
-#
-# Thanks to http://patorjk.com/software/taag/ for the awesome ASCII art
-# generator.
-#
 # Obligatory TODOs:
 # * Fix broken squiggly HEREDOC output in the experience loop.
 
