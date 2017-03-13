@@ -22,6 +22,7 @@ But, if I'm being completely honest, I just like to write code, and this was as 
 | -------- | -------- |
 | [.gitignore](.gitignore) | Ignores any decrypted files. |
 | [Evans Tucker's Resume.html](Evans Tucker's Resume.html) | The output of this process. |
+| [Evans Tucker's Resume.pdf](Evans Tucker's Resume.pdf) | PDF created with Firefox at 60% scale. |
 | [README.md](README.md) | This. |
 | [decrypt_yaml.rb](decrypt_yaml.rb) | Decrypts the encrypted_resume.yaml file. |
 | decrypted_resume.yaml | Not in this repo, because it contains secret info. This is what resume.rb uses as input. |
