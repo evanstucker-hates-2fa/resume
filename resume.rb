@@ -7,6 +7,9 @@ require 'yaml'
 
 resume = YAML.load_file('decrypted_resume.yaml')
 
+# I would love to split out the CSS and Javascript into separate files to make
+# it easier to run pre-commit hooks on them, but I also want my resume to be a
+# single HTML file to make it easier to send via e-mail or import... Oh well.
 output = <<~END
   <!DOCTYPE html>
   <html lang="en">
