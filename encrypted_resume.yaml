@@ -3,37 +3,37 @@ contact:
   name: Evans Tucker
   phone: "+1 (971) 336-3223"
   email: evans.tucker@gmail.com
-biography: 'Evans Tucker is an American systems administrator, best known for some
-  brief company-wide outage, but occasionally recognized for his elegant code and
-  excellent process documentation. The most notable companies he has worked for are:
-  Charles Schwab, Indeed, and his current employer, athenahealth. In 2015, he and
-  his family sold almost everything they owned, and moved from Austin, Texas to Portland,
-  Oregon to escape the heat, mosquitoes, and ennui. Evans is a strong advocate for
-  Linux, free/libre open source software, autonomous electric cars, space colonization,
-  and some kind of post-scarcity economics world where work is optional, and we can
-  just sit around philosophizing all day long.'
+biography: 'Evans Tucker is a senior Linux systems administrator, probably best known
+  for causing a brief company-wide outage, but occasionally recognized for his elegant
+  code and excellent process documentation. He practices Agile software development
+  using DevOps, Scrum, and Kanban methodologies. In 2015, he and his family sold almost
+  everything they owned, and moved from Austin, Texas to Portland, Oregon to escape
+  the heat, mosquitoes, and ennui. Evans is a strong advocate for: free and open source
+  software; a decentralized, distributed web; autonomous electric cars; space colonization;
+  and a post-scarcity economy where we can just sit around philosophizing all day
+  long.'
 experience:
 - tags: current story_time
   title: Senior Member of Technical Staff
   location: Remote/Telecommute
   company: athenahealth, Inc.
-  address: 311 Arsenal Street
+  address: 311 Arsenal St
   city: Watertown
   state: Massachusetts
   zip_code: '02472'
   phone: "+1 (800) 981-5084"
   url: http://www.athenahealth.com/
   supervisor: Cameron King
-  start_date: 2015-08-31
-  end_date:
+  start_date: '2015-08-31'
+  end_date: 
   starting_compensation: V5syJDpXQpVS7DfSd3eMyA==
   ending_compensation: ez5mHtoEOp+BeKQxIP+K8A==
   description:
   - For most of 2016, I was part of a small team that was creating a new platform
     in AWS. I built custom CentOS 7 and Oracle Linux 7 images using Packer, then we
-    used SparkleFormation - an infrastructure as code (IaC) tool that builds CloudFormation
-    templates - to build ELBs, ASGs, and other BS. We set up GitLab to house all of
-    the code, and used Puppet 4 with Hiera as our ENC to manage configuration.
+    used SparkleFormation, an infrastructure as code (IaC) tool that builds CloudFormation
+    templates, to build ELBs, ASGs, and other BS. We set up GitLab to house all of
+    the code, and used Puppet 4 with agent certificate extensions to manage our configuration.
   - 'App deploys, OS upgrades, developer requests, and on-call issues were another
     significant part of my workload. App deploys used to take two people four hours
     to complete. I wrote a plethora of scripts to automate this process: one for NetScaler
@@ -41,31 +41,28 @@ experience:
     the correct order, a health check script, and a wrapper script that encompassed
     all of these. The deploy process now takes one person 45 minutes, and most of
     that is just waiting for a service to build an index. Similarly for OS updates,
-    I wrote a wrapper script that used my restart and health check scripts to automatically
-    perform updates for an entire environment instead of updating servers individually.
-    Regarding on-call issues, I wrote a "clean up" script with role-based rules. With
-    it, I was able to reduce our free space alerts from an average of 55 per month
-    to 5 per month. The NOC (the team that escalates alerts to our team) gave me kudos
-    as well - they had a similar reduction in alerts.'
-  - Researching and building proofs of concept was one of the most challenging aspects
-    of my job. Before the AWS project began, I was tasked with creating a POC for
-    a new build and life cycle management process using Red Hat Satellite (which is
-    essentially Foreman and Katello). Satellite was fairly complex, and, due to it's
-    rigid nature, it didn't work well for our environments, so that project was scrapped.
-    I also researched several monitoring solutions, recommended Sensu, and ended up
-    building POCs for Zabbix and Zenoss. Unfortunately, this was during a turbulent
-    time for our company, so the monitoring projects were abandoned as well.
+    I wrote a script to automatically perform updates for an entire environment instead
+    of updating servers individually. Regarding on-call issues, I wrote a "clean up"
+    script with role-based rules. With it, I was able to reduce our free space alerts
+    from an average of 55 per month to 5 per month. The NOC (the team that escalates
+    alerts to our team) gave me kudos as well - they had a similar reduction in alerts.'
+  - Researching and building proofs of concept (POCs) was one of the most challenging
+    aspects of my job. Before the AWS project began, I was tasked with creating a
+    POC for a new build and life cycle management process using Red Hat Satellite
+    (which is essentially Foreman and Katello). Satellite was fairly complex, and,
+    due to it's rigid nature, it didn't work well for our environments, so that project
+    was scrapped. I also researched several monitoring solutions, recommended Sensu,
+    and ended up building POCs for Zabbix and Zenoss. Unfortunately, this was during
+    a turbulent time for our company, so the monitoring projects were abandoned as
+    well.
   - Telecommuting was excellent! This was my first 100% remote/telecommuting position.
     Initially it was amazing to be able to focus on a project with almost no interruptions
     for hours at a time. As I got more popular, and started working with more teams,
-    meetings began to chip away at the large blocks of contiguous time. Conveniently,
-    we adopted an Agile methodology around the same time, so our monolithic projects
-    were broken down into succinct stories. With frequent video conferencing and screen
-    sharing, I was able to effectively work with my team across town, across the country,
-    and globally. Despite having no office, I trained three new U.S. colleagues as
-    well as two in Chennai, India. That being said, I am looking for an excuse to
-    get a Tesla Model 3, so I'm willing to schlep into an office somewhere, gorge
-    myself on free snacks, and socialize if the job requires it.
+    meetings began to chip away at the large blocks of contiguous time. With frequent
+    video conferencing and screen sharing, I was able to effectively work with my
+    team across town, across the country, and globally. I even trained three new U.S.
+    colleagues as well as two in Chennai, India. That being said, I am a social person,
+    so I'm leaning slightly towards an office-based position for my next job.
   reason_for_leaving: ''
 - tags: current story_time
   title: Systems Administrator
@@ -75,11 +72,11 @@ experience:
   city: Austin
   state: Texas
   zip_code: '78731'
-  phone:
+  phone: 
   url: http://www.indeed.com/
   supervisor: Jason Koppe
-  start_date: 2013-11-25
-  end_date: 2015-05-21
+  start_date: '2013-11-25'
+  end_date: '2015-05-21'
   starting_compensation: Tltl5iRlLtMC4KyR74kmuA==
   ending_compensation: yu52bttdsD0sZYHndXs0wA==
   description:
@@ -128,8 +125,8 @@ experience:
   phone: "+1 (512) 372-8397"
   url: http://www.schwab.com/
   supervisor: Irby Gaudet
-  start_date: 2010-03-15
-  end_date: 2013-04-02
+  start_date: '2010-03-15'
+  end_date: '2013-04-02'
   starting_compensation: xxY9JloqAUTMggmR9WcIBw==
   ending_compensation: A2xQyVw5ryf4dCRhN6EyNg==
   description:
@@ -152,15 +149,15 @@ experience:
   title: System Administrator
   location: Austin, TX
   company: Renew Data Corp.
-  address: 9500 Arboretum Boulevard Suite 130
+  address: 9500 Arboretum Boulevard Ste 130
   city: Austin
   state: Texas
   zip_code: '78759'
   phone: "+1 (888) 811-3789"
   url: http://www.renewdata.com/
   supervisor: Tony Colon
-  start_date: 2009-10-15
-  end_date: 2010-03-11
+  start_date: '2009-10-15'
+  end_date: '2010-03-11'
   starting_compensation: KCiwi5gQW/PhUGKIpcXYqw==
   ending_compensation: KCiwi5gQW/PhUGKIpcXYqw==
   description:
@@ -179,15 +176,15 @@ experience:
   title: Network Administrator II
   location: Austin, TX
   company: Engauge Marketing, LLC.
-  address: 11401 Century Oaks Terrace Suite 400
+  address: 11401 Century Oaks Terrace Ste 400
   city: Austin
   state: Texas
   zip_code: '78758'
   phone: "+1 (512) 220-7414"
   url: http://www.engauge.com/
   supervisor: Bob Elmer
-  start_date: 2007-11-01
-  end_date: 2009-09-15
+  start_date: '2007-11-01'
+  end_date: '2009-09-15'
   starting_compensation: IObsnU2+fH2Qfiy68ykPzg==
   ending_compensation: IObsnU2+fH2Qfiy68ykPzg==
   description:
@@ -221,15 +218,15 @@ experience:
   title: Network Administrator
   location: Austin, TX
   company: Winternals Software LP
-  address: 3101 Bee Caves Road Suite 150
+  address: 3101 Bee Caves Rd Ste 150
   city: Austin
   state: Texas
   zip_code: '78746'
   phone: "+1 (512) 330-9130"
   url: http://www.winternals.com/
   supervisor: Matthew Bryce
-  start_date: 2004-01-30
-  end_date: 2007-03-30
+  start_date: '2004-01-30'
+  end_date: '2007-03-30'
   starting_compensation: p7rzaBWJ0vZC8E5xyJ+XVg==
   ending_compensation: QyVR8z9RxaQm7F1duQxCCg==
   description:
@@ -255,19 +252,19 @@ experience:
   - "• Developed and implemented disaster recovery procedures."
   - "• Responded to system alerts 24 hours a day, 7 days a week."
   reason_for_leaving: Winternals was acquired by Microsoft.
-- tags:
+- tags: 
   title: Assistant Catastrophe Adjuster
   location: Norfolk, VA
   company: Martin Arguello
-  address:
+  address: 
   city: Norfolk
   state: Virginia
-  zip_code:
+  zip_code: 
   phone: "+1 (979) 255-5003"
   url: mailto:arguello@earthlink.net
   supervisor: Martin Arguello
-  start_date: 2003-09-20
-  end_date: 2003-10-25
+  start_date: '2003-09-20'
+  end_date: '2003-10-25'
   starting_compensation: "/r7oInfurbZa8gPfARKR1g=="
   ending_compensation: "/r7oInfurbZa8gPfARKR1g=="
   description:
@@ -278,7 +275,7 @@ experience:
   - "• Sketched roof, siding, and interior diagrams and measured damaged areas."
   - "• Performed the various office duties needed to close the policy holders' files."
   reason_for_leaving: Position was temporary.
-- tags:
+- tags: 
   title: CSD Network Tech/Specialist
   location: Round Rock, TX
   company: Dell Corporation
@@ -289,8 +286,8 @@ experience:
   phone: "+1 (512) 723-9134"
   url: http://www.dell.com/
   supervisor: Tony Bass
-  start_date: 2002-07-15
-  end_date: 2003-07-17
+  start_date: '2002-07-15'
+  end_date: '2003-07-17'
   starting_compensation: QmTKZDUC6R0APLeOOL3AXA==
   ending_compensation: zrg1WmpWGvKZ9TCz194h2g==
   description:
@@ -300,7 +297,7 @@ experience:
   - "• Administered Dell's internal Precision Workstation website."
   reason_for_leaving: Dell offered me another, better phone support position, but
     I didn't want to be on the phones anymore.
-- tags:
+- tags: 
   title: Technical Support
   location: Bryan, TX
   company: DecisionOne
@@ -311,8 +308,8 @@ experience:
   phone: "+1 (979) 774-2700"
   url: http://www.decisionone.com/
   supervisor: Noel Templeton
-  start_date: 2001-10-08
-  end_date: 2002-03-08
+  start_date: '2001-10-08'
+  end_date: '2002-03-08'
   starting_compensation: YoKEHKE8UYPs0Awa+wFLRA==
   ending_compensation: YoKEHKE8UYPs0Awa+wFLRA==
   description:
@@ -320,19 +317,19 @@ experience:
   - "• Provided tech support for Covad DSL and T1 lines."
   - "• Performed customer service duties for both of the companies above."
   reason_for_leaving: Moved to Dallas.
-- tags:
+- tags: 
   title: Assistant Catastrophe Adjuster
   location: Omaha, NE
   company: Martin Arguello
-  address:
+  address: 
   city: Omaha
   state: Nebraska
-  zip_code:
+  zip_code: 
   phone: "+1 (979) 255-5003"
   url: mailto:arguello@earthlink.net
   supervisor: Martin Arguello
-  start_date: 2001-04-23
-  end_date: 2001-06-11
+  start_date: '2001-04-23'
+  end_date: '2001-06-11'
   starting_compensation: d8QK/UbY8XmFFdUIw8HRdw==
   ending_compensation: d8QK/UbY8XmFFdUIw8HRdw==
   description:
@@ -342,19 +339,19 @@ experience:
   - "• Sketched roof and siding diagrams and measure damaged areas."
   - "• Performed the various office duties needed to close the policy holders' files."
   reason_for_leaving: Position was temporary.
-- tags:
+- tags: 
   title: Consultant
   location: Madison, WI
   company: Exacta Corporation
-  address: 5325 Wall Street
+  address: 5325 Wall St
   city: Madison
   state: Wisconsin
   zip_code: '53718'
   phone: "+1 (608) 241-5100"
   url: http://www.exactacorp.com/
   supervisor: Hank
-  start_date: 2000-01-16
-  end_date: 2001-03-31
+  start_date: '2000-01-16'
+  end_date: '2001-03-31'
   starting_compensation: BUaReZ4QfZoWw+UgrDusbw==
   ending_compensation: DDxFCjkmuEGpAk8wxhqjSw==
   description:
@@ -368,38 +365,38 @@ experience:
     Company."
   - "• Performed various troubleshooting tasks on the SOC's LAN."
   reason_for_leaving: Moved back to Texas.
-- tags:
+- tags: 
   title: Technical Support
   location: San Antonio, TX
   company: Texas.Net
-  address: 405 North Saint Mary's Street
+  address: 405 North Saint Mary's St
   city: San Antonio
   state: Texas
   zip_code: '78205'
   phone: "+1 (210) 357-9200"
   url: http://www.texas.net/
   supervisor: Tim Yaeger
-  start_date: 1999-09-10
-  end_date: 2000-01-20
+  start_date: '1999-09-10'
+  end_date: '2000-01-20'
   starting_compensation: UztdlDsk18qrU9YVM1wZRQ==
   ending_compensation: 8ViZxGIPTG/5mBsEuPTZDw==
   description:
   - "• Provided phone and e-mail tech support for dial-up and DSL connections."
   - "• Provided customer service for business and residential accounts."
   reason_for_leaving: Obtained a web programming position at Exacta.
-- tags:
+- tags: 
   title: Hardware Technician
   location: San Antonio, TX
   company: Amenity Computer Services
-  address: 7126 Eckhert Road Suite 9
+  address: 7126 Eckhert Rd Ste 9
   city: San Antonio
   state: Texas
   zip_code: '78238'
   phone: "+1 (210) 647-0125"
   url: http://www.askacs.com/
   supervisor: Jeff Chamberlain
-  start_date: 1999-07-06
-  end_date: 1999-08-30
+  start_date: '1999-07-06'
+  end_date: '1999-08-30'
   starting_compensation: '08rjaE4lrjQGXIIsrT729w=='
   ending_compensation: '08rjaE4lrjQGXIIsrT729w=='
   description:
@@ -414,7 +411,7 @@ experience:
     in the wrong position, partially inserted cards, cables plugged in backwards,
     bent pins, etc. I got it working pretty quickly and he hired me on the spot.
   reason_for_leaving: Found a better position at Texas.Net.
-- tags:
+- tags: 
   title: Technical Support Volunteer
   location: Waco, TX
   company: TSTC Student Online Services
@@ -425,8 +422,8 @@ experience:
   phone: "+1 (800) 792-8784"
   url: http://www.waco.tstc.edu/
   supervisor: Susan Meyers
-  start_date: 1997
-  end_date: 1998
+  start_date: '1997'
+  end_date: '1998'
   starting_compensation: vH0W/JJ0LxWie8k2T6LSpw==
   ending_compensation: vH0W/JJ0LxWie8k2T6LSpw==
   description:
@@ -437,19 +434,19 @@ experience:
   - "• Provided phone tech support for TSTC's online services."
   - "• Administered several web and file servers."
   reason_for_leaving: Wanted to take more classes.
-- tags:
+- tags: 
   title: Sandwich Artist
   location: College Station, TX
   company: Subway
-  address: 1500 Harvey Road
+  address: 1500 Harvey Rd
   city: College Station
   state: Texas
   zip_code: '77840'
   phone: "+1 (979) 764-8602"
   url: http://www.subway.com/
   supervisor: Belinda
-  start_date: 1997-07-15
-  end_date: 1997-10-15
+  start_date: '1997-07-15'
+  end_date: '1997-10-15'
   starting_compensation: 3n335pRPJEGJzcmRmFrUhQ==
   ending_compensation: "/zcdA7VTPfRWVd39VK0dOQ=="
   description:
@@ -458,26 +455,26 @@ experience:
   - "• Cleaned."
   - "• Closed the store and completed inventory and safe-deposit paperwork."
   reason_for_leaving: Went back to college.
-- tags:
+- tags: 
   title: Express Associate
   location: Waco, TX
   company: Express Personnel Services
-  address: 6321 Sanger Avenue
+  address: 6321 Sanger Ave
   city: Waco
   state: Texas
   zip_code: '76710'
   phone: "+1 (254) 776-3302"
   url: http://www.expresspersonnel.com/
-  supervisor:
-  start_date: 1996-11-01
-  end_date: 1996-11-30
+  supervisor: 
+  start_date: '1996-11-01'
+  end_date: '1996-11-30'
   starting_compensation: 2XpwFZ2XfmiBejJb0L6kgA==
   ending_compensation: e9YJSvRXQKnoYjlwKRXWRg==
   description:
   - "• Performed some simple assembly line work at a medical supplies factory."
   - "• Engaged in some outdoor manual labor at a sheetrock company."
   reason_for_leaving: They didn't provide enough jobs.
-- tags:
+- tags: 
   title: Maintenance Crew
   location: Bryan, TX
   company: 50 Off Store
@@ -485,11 +482,11 @@ experience:
   city: Bryan
   state: Texas
   zip_code: '77802'
-  phone:
-  url:
+  phone: 
+  url: 
   supervisor: Mr. Bush
-  start_date: 1996-05-10
-  end_date: 1996-06-07
+  start_date: '1996-05-10'
+  end_date: '1996-06-07'
   starting_compensation: eacjPJvIUwjOa6fscYxz9A==
   ending_compensation: eacjPJvIUwjOa6fscYxz9A==
   description:
@@ -498,37 +495,37 @@ experience:
   - "• Executed astounding janitorial feats on the store's lavatory."
   reason_for_leaving: Manager yelled at everyone all the time. Level of abuse far
     exceeded pay.
-- tags:
+- tags: 
   title: Sandwich Artist
   location: Bryan, TX
   company: Subway
-  address: 3601 East 29th Street
+  address: 3601 East 29th St
   city: Bryan
   state: Texas
   zip_code: '77802'
   phone: "+1 (979) 846-4972"
   url: http://www.subway.com/
   supervisor: Candy
-  start_date: 1996-02-15
-  end_date: 1996-08-31
+  start_date: '1996-02-15'
+  end_date: '1996-08-31'
   starting_compensation: eacjPJvIUwjOa6fscYxz9A==
   ending_compensation: wU/oyXQ8+oNEBdQCA1GQEA==
   description:
   - "• (See the Subway entry above.)"
   reason_for_leaving: Left for college.
-- tags:
+- tags: 
   title: Customer Service Representative
   location: Bryan, TX
   company: McDonald's
-  address: 825 East Villa Maria Road
+  address: 825 East Villa Maria Rd
   city: Bryan
   state: Texas
   zip_code: '77802'
   phone: "+1 (979) 822-3011"
   url: http://www.mcdonalds.com/
   supervisor: Sherry
-  start_date: 1994-05-01
-  end_date: 1995-02-28
+  start_date: '1994-05-01'
+  end_date: '1995-02-28'
   starting_compensation: pDxq9Fw0sjBcNdMauBeATw==
   ending_compensation: eacjPJvIUwjOa6fscYxz9A==
   description:
@@ -558,8 +555,8 @@ education:
   url: http://www.waco.tstc.edu/
   degree: Associate of Applied Science
   major: Computer Science Technology
-  start_date: 1996-09-05
-  end_date: 2000-05-23
+  start_date: '1996-09-05'
+  end_date: '2000-05-23'
   achievements:
   - "• Cumulative GPA 3.225"
   - "• Awarded President's Honor Roll"
@@ -573,8 +570,8 @@ education:
   url: http://www.tamu.edu/
   degree: Incomplete
   major: Computer Science
-  start_date: 1996
-  end_date: 1996
+  start_date: '1996'
+  end_date: '1996'
   achievements:
   - "• Boycotted homework."
   - • Managed to get a "B" in my Computer Science class anyway.
@@ -587,9 +584,9 @@ education:
   phone: "+1 (979) 731-7855"
   url: http://www.bryanisd.org/school.asp?schoolID=9
   degree: High School Diploma
-  major:
-  start_date: 1995
-  end_date: 1995
+  major: 
+  start_date: '1995'
+  end_date: '1995'
   achievements:
   - "• Went to school from noon to four."
   - "• Didn't do any homework."
@@ -597,15 +594,15 @@ education:
   - "• Still got a high school diploma! (Priceless.)"
 - tags: high_school
   name: Bryan High School
-  address: 3401 East 29th Street
+  address: 3401 East 29th St
   city: Bryan
   state: Texas
   zip_code: '77802'
   phone: "+1 (979) 731-7400"
   url: http://www.ci.bryanisd.org/bryanhs/
   degree: Incomplete
-  major:
-  start_date: 1991
-  end_date: 1995
+  major: 
+  start_date: '1991'
+  end_date: '1995'
   achievements:
   - "• Scored 1210 on the SAT (560 Verbal, 670 Mathematics)."
