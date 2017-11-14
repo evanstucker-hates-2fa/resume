@@ -1,5 +1,10 @@
 #!/usr/bin/env ruby
 
+# This is kinda dumb, but it works for now.
+#
+# NOTE: The ending_compensation has to be non-empty. This doesn't really make
+# sense. I should make it make sense one day.
+
 def encrypt(plaintext)
   encryptor = OpenSSL::Cipher.new $cipher
   encryptor.encrypt
