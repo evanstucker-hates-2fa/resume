@@ -46,14 +46,9 @@
       body {
         font-family: sans-serif;
       }
-	/* IE displays bullets differently, so I decided to just use Unicode
-           bullets at the beginning of my list items. */
-      li {
-        list-style: none;
-      }
-      p {
-        padding-left: 2%;
-        padding-right: 2%;
+      li, p {
+        margin-left: 2%;
+        margin-right: 2%;
       }
       ul {
         padding-left: 2%;
@@ -103,8 +98,14 @@
 <div class="headline">Biography</div>
 <span>Evans Tucker is a senior Linux systems administrator, probably best known for causing a brief company-wide outage, but occasionally recognized for his elegant code and excellent process documentation. He practices Agile software development using DevOps, Scrum, and Kanban methodologies. In 2015, he and his family sold almost everything they owned, and moved from Austin, Texas to Portland, Oregon to escape the heat, mosquitoes, and ennui. Evans is a strong advocate for: free and open source software; a decentralized, distributed web; autonomous electric cars; space colonization; and a post-scarcity economy where we can just sit around philosophizing all day long.</span>
     <div class="headline">Experience</div>
+<div class="left">Site Reliability Engineer at <a href="https://www.iovation.com/">iovation Inc.</a> (Portland, OR)</div>
+<div class="right">2017-11-13 to 2018-03-09<span class="years" data-start-date="2017-11-13" data-end-date="2018-03-09"></span></div>
+<div class="clear">
+      <p>My team was working on GDPR and SOC 2 compliance, where my role was to automate the OS upgrade process for our Puppet, Sensu, Elasticsearch, and Jenkins hosts. Most notably, I wrote some scripts to control the flow of data into our Elasticsearch cluster, and perform a rolling upgrade. I also began deduplicating our collection of around forty separate copy/pasted upgrade scripts. I created a POC for a unified, generic upgrade process that would work with all of our hosts.</p>
+      <p>In addition to automation and upgrades, I experimented with Terraform as a way to manage our AWS IAM users and S3 buckets, but it wasn't quite the right tool for that job, so I ended up using AWS Config instead.</p>
+    </div>
 <div class="left">Senior Member of Technical Staff at <a href="http://www.athenahealth.com/">athenahealth, Inc.</a> (Remote/Telecommute)</div>
-<div class="right">2015-08-31 to Present<span class="years" data-start-date="2015-08-31" data-end-date=""></span></div>
+<div class="right">2015-08-31 to 2017-11-06<span class="years" data-start-date="2015-08-31" data-end-date="2017-11-06"></span></div>
 <div class="clear">
       <p>For most of 2016, I was part of a small team that was creating a new platform in AWS. I built custom CentOS 7 and Oracle Linux 7 images using Packer, then we used SparkleFormation, an infrastructure as code (IaC) tool that builds CloudFormation templates, to build ELBs, ASGs, and other BS. We set up GitLab to house all of the code, and used Puppet 4 with agent certificate extensions to manage our configuration.</p>
       <p>App deploys, OS upgrades, developer requests, and on-call issues were another significant part of my workload. App deploys used to take two people four hours to complete. I wrote a plethora of scripts to automate this process: one for NetScaler load balancing, another that restarted all the services for each server role in the correct order, a health check script, and a wrapper script that encompassed all of these. The deploy process now takes one person 45 minutes, and most of that is just waiting for a service to build an index. Similarly for OS updates, I wrote a script to automatically perform updates for an entire environment instead of updating servers individually. Regarding on-call issues, I wrote a "clean up" script with role-based rules. With it, I was able to reduce our free space alerts from an average of 55 per month to 5 per month. The NOC (the team that escalates alerts to our team) gave me kudos as well - they had a similar reduction in alerts.</p>
@@ -125,57 +126,57 @@
 <div class="right">2010-03-15 to 2013-04-02<span class="years" data-start-date="2010-03-15" data-end-date="2013-04-02"></span></div>
 <div class="clear">
       <ul>
-      <li>• Joined the Data Center Operations shift B team, and was later promoted to team lead on shift A.</li>
-      <li>• Regularly directed large, multi-team conference calls to restore service during outages.</li>
-      <li>• Followed ITIL best practices, specifically incident, problem, and change management.</li>
-      <li>• Coordinated and executed changes in the production environment using several tools including BMC Remedy Action Request system, HP Operations Orchestration, CiscoWorks Hosting Solution Engine (HSE), Cisco Global Site Selector (GSS), and Cisco Application Networking Manager (ANM).</li>
-      <li>• Remotely assisted on-site technicians troubleshoot and repair server and storage hardware.</li>
-      <li>• Monitored Linux, VMware vSphere, Windows, Solaris, and AIX services and hardware using Managed Objects v4, and worked with the Distributed Network and Automation team to reduce excessive alerting.</li>
+      <li>Joined the Data Center Operations shift B team, and was later promoted to team lead on shift A.</li>
+      <li>Regularly directed large, multi-team conference calls to restore service during outages.</li>
+      <li>Followed ITIL best practices, specifically incident, problem, and change management.</li>
+      <li>Coordinated and executed changes in the production environment using several tools including BMC Remedy Action Request system, HP Operations Orchestration, CiscoWorks Hosting Solution Engine (HSE), Cisco Global Site Selector (GSS), and Cisco Application Networking Manager (ANM).</li>
+      <li>Remotely assisted on-site technicians troubleshoot and repair server and storage hardware.</li>
+      <li>Monitored Linux, VMware vSphere, Windows, Solaris, and AIX services and hardware using Managed Objects v4, and worked with the Distributed Network and Automation team to reduce excessive alerting.</li>
       </ul>
     </div>
 <div class="left">System Administrator at <a href="http://www.renewdata.com/">Renew Data Corp.</a> (Austin, TX)</div>
 <div class="right">2009-10-15 to 2010-03-11<span class="years" data-start-date="2009-10-15" data-end-date="2010-03-11"></span></div>
 <div class="clear">
       <ul>
-      <li>• Installed, configured, and supported IBM System x servers in single and multi-node configurations.</li>
-      <li>• Supported HP ProLiant servers (G2 through G6) and StorageWorks 30 Modular Smart Arrays.</li>
-      <li>• Supported over 500 virtual machines on 28 hosts in VMware vCenter Server 4.0.0.</li>
-      <li>• Administered the Kantech EntraPass proximity card system, as well as the Bioscrypt V-Pass and V-Flex biometric security system.</li>
-      <li>• Supported and assigned RSA SecurID software tokens in conjunction with F5 Networks FirePass appliance.</li>
-      <li>• Audited and reconfigured the Aastra NeXspan L phone system.</li>
+      <li>Installed, configured, and supported IBM System x servers in single and multi-node configurations.</li>
+      <li>Supported HP ProLiant servers (G2 through G6) and StorageWorks 30 Modular Smart Arrays.</li>
+      <li>Supported over 500 virtual machines on 28 hosts in VMware vCenter Server 4.0.0.</li>
+      <li>Administered the Kantech EntraPass proximity card system, as well as the Bioscrypt V-Pass and V-Flex biometric security system.</li>
+      <li>Supported and assigned RSA SecurID software tokens in conjunction with F5 Networks FirePass appliance.</li>
+      <li>Audited and reconfigured the Aastra NeXspan L phone system.</li>
       </ul>
     </div>
 <div class="left">Network Administrator II at <a href="http://www.engauge.com/">Engauge Marketing, LLC.</a> (Austin, TX)</div>
 <div class="right">2007-11-01 to 2009-09-15<span class="years" data-start-date="2007-11-01" data-end-date="2009-09-15"></span></div>
 <div class="clear">
       <ul>
-      <li>• Supported 42 servers, 43 employees, and provided intermittent support for clients in a diverse environment running Windows XP, Windows 7, Windows 2000/2003/2008, Debian Linux 4, Ubuntu Linux 8.10 and 9.04, and Apple OS X 10.4 and 10.5.</li>
-      <li>• Installed new services to bring the company up to date, specifically Spiceworks, Dell OpenManage Server Administrator, WSUS 3.0 SP1, an FTP/SFTP server, and Backup Exec 12.5 with a Dell ML6000 30-slot tape autoloader.</li>
-      <li>• Virtualized our environment using VMware ESXi, reducing our server room footprint from seven racks to four.</li>
-      <li>• Consolidated various web, file, and SQL servers together and created processes to keep the network growing in a scalable, structured manner.</li>
-      <li>• Managed large SQL servers for international clients including Avocent, Best Buy For Business, CDW, COPC, Huntington Bank, Logitech, Sony, and Tivo.</li>
-      <li>• Maintained our Nortel Meridian 1 Option 11 phone system with integrated conference bridge.</li>
-      <li>• Migrated the entire Austin office including all user accounts, computers, and e-mail to a new Active Directory domain.</li>
-      <li>• Configured site to site VPNs on a Cisco ASA 5510 and later a SonicWALL NSA 3500 to other Engauge offices around the country as well as several client offices.</li>
-      <li>• Trained and managed new members of the IT team.</li>
-      <li>• Documented all aspects of my job including (network maps, in-house processes, etc.) and created spreadsheets for auditing the process of setting up new users, workstations, and servers as well as decommissioning them.</li>
-      <li>• Researched and created a disaster recovery plan.</li>
+      <li>Supported 42 servers, 43 employees, and provided intermittent support for clients in a diverse environment running Windows XP, Windows 7, Windows 2000/2003/2008, Debian Linux 4, Ubuntu Linux 8.10 and 9.04, and Apple OS X 10.4 and 10.5.</li>
+      <li>Installed new services to bring the company up to date, specifically Spiceworks, Dell OpenManage Server Administrator, WSUS 3.0 SP1, an FTP/SFTP server, and Backup Exec 12.5 with a Dell ML6000 30-slot tape autoloader.</li>
+      <li>Virtualized our environment using VMware ESXi, reducing our server room footprint from seven racks to four.</li>
+      <li>Consolidated various web, file, and SQL servers together and created processes to keep the network growing in a scalable, structured manner.</li>
+      <li>Managed large SQL servers for international clients including Avocent, Best Buy For Business, CDW, COPC, Huntington Bank, Logitech, Sony, and Tivo.</li>
+      <li>Maintained our Nortel Meridian 1 Option 11 phone system with integrated conference bridge.</li>
+      <li>Migrated the entire Austin office including all user accounts, computers, and e-mail to a new Active Directory domain.</li>
+      <li>Configured site to site VPNs on a Cisco ASA 5510 and later a SonicWALL NSA 3500 to other Engauge offices around the country as well as several client offices.</li>
+      <li>Trained and managed new members of the IT team.</li>
+      <li>Documented all aspects of my job including (network maps, in-house processes, etc.) and created spreadsheets for auditing the process of setting up new users, workstations, and servers as well as decommissioning them.</li>
+      <li>Researched and created a disaster recovery plan.</li>
       </ul>
     </div>
 <div class="left">Network Administrator at <a href="http://www.winternals.com/">Winternals Software LP</a> (Austin, TX)</div>
 <div class="right">2004-01-30 to 2007-03-30<span class="years" data-start-date="2004-01-30" data-end-date="2007-03-30"></span></div>
 <div class="clear">
       <ul>
-      <li>• Configured, installed, upgraded, and supported hardware including workstations, laptops, Dell PowerEdge servers, PowerVault disk arrays and tape libraries, APC UPS products, and Cisco switches, routers, and firewalls.</li>
-      <li>• Set up and supported operating systems, server software, and applications on all computers in the company including Windows 2000/XP/2003, Debian Linux, and Macintosh OS X, Active Directory, DNS, Exchange 2000, IIS, SharePoint, SQL Server 2000, WSUS, Apache, Exim, MySQL, Nagios, Request Tracker, Blackberry Enterprise Server, Goldmine, Veritas Backup Exec, VMware, Trend Micro SMB, and our own products: Winternals Recovery Manager, Defrag Manager, and Protection Manager.</li>
-      <li>• Configured and maintained the Iwatsu/ADIX telecommunications system.</li>
-      <li>• Designed, upgraded, and installed various systems such as the ADT security system, fiber network, Cisco 4006 switch, and our rack at the colocation facility.</li>
-      <li>• Purchased software, hardware, and services for the company, and maintained good vendor relations with Dell, CDW, and our Internet provider, Time Warner.</li>
-      <li>• Established and maintained network users, user environment, file shares, and security.</li>
-      <li>• Trained users on software and equipment usage.</li>
-      <li>• Tracked my work and answered users' questions using the Request Tracker ticketing system.</li>
-      <li>• Developed and implemented disaster recovery procedures.</li>
-      <li>• Responded to system alerts 24 hours a day, 7 days a week.</li>
+      <li>Configured, installed, upgraded, and supported hardware including workstations, laptops, Dell PowerEdge servers, PowerVault disk arrays and tape libraries, APC UPS products, and Cisco switches, routers, and firewalls.</li>
+      <li>Set up and supported operating systems, server software, and applications on all computers in the company including Windows 2000/XP/2003, Debian Linux, and Macintosh OS X, Active Directory, DNS, Exchange 2000, IIS, SharePoint, SQL Server 2000, WSUS, Apache, Exim, MySQL, Nagios, Request Tracker, Blackberry Enterprise Server, Goldmine, Veritas Backup Exec, VMware, Trend Micro SMB, and our own products: Winternals Recovery Manager, Defrag Manager, and Protection Manager.</li>
+      <li>Configured and maintained the Iwatsu/ADIX telecommunications system.</li>
+      <li>Designed, upgraded, and installed various systems such as the ADT security system, fiber network, Cisco 4006 switch, and our rack at the colocation facility.</li>
+      <li>Purchased software, hardware, and services for the company, and maintained good vendor relations with Dell, CDW, and our Internet provider, Time Warner.</li>
+      <li>Established and maintained network users, user environment, file shares, and security.</li>
+      <li>Trained users on software and equipment usage.</li>
+      <li>Tracked my work and answered users' questions using the Request Tracker ticketing system.</li>
+      <li>Developed and implemented disaster recovery procedures.</li>
+      <li>Responded to system alerts 24 hours a day, 7 days a week.</li>
       </ul>
     </div>
     <div class="headline">Education</div>
@@ -183,8 +184,8 @@
 <div class="right">Associate of Applied Science in Computer Science Technology</div>
 <div class="clear">
   <ul>
-      <li>• Cumulative GPA 3.225</li>
-      <li>• Awarded President's Honor Roll</li>
+      <li>Cumulative GPA 3.225</li>
+      <li>Awarded President's Honor Roll</li>
   </ul>
 </div>
     <div class="generated">This resume isn't a Word doc or a PDF - it's code! You can see the source here: <a class="generated" href="https://gitlab.com/evanstucker/resume">https://gitlab.com/evanstucker/resume</a></div>

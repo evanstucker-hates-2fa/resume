@@ -59,14 +59,9 @@ output = <<~END
         body {
           font-family: sans-serif;
         }
-	/* IE displays bullets differently, so I decided to just use Unicode
-             bullets at the beginning of my list items. */
-        li {
-          list-style: none;
-        }
-        p {
-          padding-left: 2%;
-          padding-right: 2%;
+        li, p {
+          margin-left: 2%;
+          margin-right: 2%;
         }
         ul {
           padding-left: 2%;

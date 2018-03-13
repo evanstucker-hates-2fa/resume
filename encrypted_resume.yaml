@@ -17,7 +17,7 @@ experience:
   title: Site Reliability Engineer
   location: Portland, OR
   company: iovation Inc.
-  address: 111 SW 5th Ave Ste 3200
+  address: '555 SW Oak St #300'
   city: Portland
   state: Oregon
   zip_code: '97204'
@@ -25,12 +25,22 @@ experience:
   url: https://www.iovation.com/
   supervisor: Aaron Blew
   start_date: '2017-11-13'
-  end_date: ''
+  end_date: '2018-03-09'
   starting_compensation: crnQSXi9Uxqu2kAlgnSK8A==
   ending_compensation: crnQSXi9Uxqu2kAlgnSK8A==
   description:
-  - Did stuff
-  reason_for_leaving: ''
+  - My team was working on GDPR and SOC 2 compliance, where my role was to automate
+    the OS upgrade process for our Puppet, Sensu, Elasticsearch, and Jenkins hosts.
+    Most notably, I wrote some scripts to control the flow of data into our Elasticsearch
+    cluster, and perform a rolling upgrade. I also began deduplicating our collection
+    of around forty separate copy/pasted upgrade scripts. I created a POC for a unified,
+    generic upgrade process that would work with all of our hosts.
+  - In addition to automation and upgrades, I experimented with Terraform as a way
+    to manage our AWS IAM users and S3 buckets, but it wasn't quite the right tool
+    for that job, so I ended up using AWS Config instead.
+  reason_for_leaving: Philosophical differences with tenured coworkers. They wanted
+    consistency, I wanted to innovate. I was formally reprimanded for creating a PR
+    for a CSV file to replace our 40 deploy scripts.
 - tags: current story_time
   title: Senior Member of Technical Staff
   location: Remote/Telecommute
@@ -150,20 +160,20 @@ experience:
   starting_compensation: xxY9JloqAUTMggmR9WcIBw==
   ending_compensation: A2xQyVw5ryf4dCRhN6EyNg==
   description:
-  - "• Joined the Data Center Operations shift B team, and was later promoted to team
-    lead on shift A."
-  - "• Regularly directed large, multi-team conference calls to restore service during
-    outages."
-  - "• Followed ITIL best practices, specifically incident, problem, and change management."
-  - "• Coordinated and executed changes in the production environment using several
-    tools including BMC Remedy Action Request system, HP Operations Orchestration,
-    CiscoWorks Hosting Solution Engine (HSE), Cisco Global Site Selector (GSS), and
-    Cisco Application Networking Manager (ANM)."
-  - "• Remotely assisted on-site technicians troubleshoot and repair server and storage
-    hardware."
-  - "• Monitored Linux, VMware vSphere, Windows, Solaris, and AIX services and hardware
+  - Joined the Data Center Operations shift B team, and was later promoted to team
+    lead on shift A.
+  - Regularly directed large, multi-team conference calls to restore service during
+    outages.
+  - Followed ITIL best practices, specifically incident, problem, and change management.
+  - Coordinated and executed changes in the production environment using several tools
+    including BMC Remedy Action Request system, HP Operations Orchestration, CiscoWorks
+    Hosting Solution Engine (HSE), Cisco Global Site Selector (GSS), and Cisco Application
+    Networking Manager (ANM).
+  - Remotely assisted on-site technicians troubleshoot and repair server and storage
+    hardware.
+  - Monitored Linux, VMware vSphere, Windows, Solaris, and AIX services and hardware
     using Managed Objects v4, and worked with the Distributed Network and Automation
-    team to reduce excessive alerting."
+    team to reduce excessive alerting.
   reason_for_leaving: I wanted to change industries and do more technical work.
 - tags: current
   title: System Administrator
@@ -181,16 +191,16 @@ experience:
   starting_compensation: KCiwi5gQW/PhUGKIpcXYqw==
   ending_compensation: KCiwi5gQW/PhUGKIpcXYqw==
   description:
-  - "• Installed, configured, and supported IBM System x servers in single and multi-node
-    configurations."
-  - "• Supported HP ProLiant servers (G2 through G6) and StorageWorks 30 Modular Smart
-    Arrays."
-  - "• Supported over 500 virtual machines on 28 hosts in VMware vCenter Server 4.0.0."
-  - "• Administered the Kantech EntraPass proximity card system, as well as the Bioscrypt
-    V-Pass and V-Flex biometric security system."
-  - "• Supported and assigned RSA SecurID software tokens in conjunction with F5 Networks
-    FirePass appliance."
-  - "• Audited and reconfigured the Aastra NeXspan L phone system."
+  - Installed, configured, and supported IBM System x servers in single and multi-node
+    configurations.
+  - Supported HP ProLiant servers (G2 through G6) and StorageWorks 30 Modular Smart
+    Arrays.
+  - Supported over 500 virtual machines on 28 hosts in VMware vCenter Server 4.0.0.
+  - Administered the Kantech EntraPass proximity card system, as well as the Bioscrypt
+    V-Pass and V-Flex biometric security system.
+  - Supported and assigned RSA SecurID software tokens in conjunction with F5 Networks
+    FirePass appliance.
+  - Audited and reconfigured the Aastra NeXspan L phone system.
   reason_for_leaving: Renew reneged on their promise to hire me at the end of my contract.
 - tags: current
   title: Network Administrator II
@@ -208,29 +218,29 @@ experience:
   starting_compensation: IObsnU2+fH2Qfiy68ykPzg==
   ending_compensation: IObsnU2+fH2Qfiy68ykPzg==
   description:
-  - "• Supported 42 servers, 43 employees, and provided intermittent support for clients
+  - Supported 42 servers, 43 employees, and provided intermittent support for clients
     in a diverse environment running Windows XP, Windows 7, Windows 2000/2003/2008,
-    Debian Linux 4, Ubuntu Linux 8.10 and 9.04, and Apple OS X 10.4 and 10.5."
-  - "• Installed new services to bring the company up to date, specifically Spiceworks,
+    Debian Linux 4, Ubuntu Linux 8.10 and 9.04, and Apple OS X 10.4 and 10.5.
+  - Installed new services to bring the company up to date, specifically Spiceworks,
     Dell OpenManage Server Administrator, WSUS 3.0 SP1, an FTP/SFTP server, and Backup
-    Exec 12.5 with a Dell ML6000 30-slot tape autoloader."
-  - "• Virtualized our environment using VMware ESXi, reducing our server room footprint
-    from seven racks to four."
-  - "• Consolidated various web, file, and SQL servers together and created processes
-    to keep the network growing in a scalable, structured manner."
-  - "• Managed large SQL servers for international clients including Avocent, Best
-    Buy For Business, CDW, COPC, Huntington Bank, Logitech, Sony, and Tivo."
-  - "• Maintained our Nortel Meridian 1 Option 11 phone system with integrated conference
-    bridge."
-  - "• Migrated the entire Austin office including all user accounts, computers, and
-    e-mail to a new Active Directory domain."
-  - "• Configured site to site VPNs on a Cisco ASA 5510 and later a SonicWALL NSA
-    3500 to other Engauge offices around the country as well as several client offices."
-  - "• Trained and managed new members of the IT team."
-  - "• Documented all aspects of my job including (network maps, in-house processes,
+    Exec 12.5 with a Dell ML6000 30-slot tape autoloader.
+  - Virtualized our environment using VMware ESXi, reducing our server room footprint
+    from seven racks to four.
+  - Consolidated various web, file, and SQL servers together and created processes
+    to keep the network growing in a scalable, structured manner.
+  - Managed large SQL servers for international clients including Avocent, Best Buy
+    For Business, CDW, COPC, Huntington Bank, Logitech, Sony, and Tivo.
+  - Maintained our Nortel Meridian 1 Option 11 phone system with integrated conference
+    bridge.
+  - Migrated the entire Austin office including all user accounts, computers, and
+    e-mail to a new Active Directory domain.
+  - Configured site to site VPNs on a Cisco ASA 5510 and later a SonicWALL NSA 3500
+    to other Engauge offices around the country as well as several client offices.
+  - Trained and managed new members of the IT team.
+  - Documented all aspects of my job including (network maps, in-house processes,
     etc.) and created spreadsheets for auditing the process of setting up new users,
-    workstations, and servers as well as decommissioning them."
-  - "• Researched and created a disaster recovery plan."
+    workstations, and servers as well as decommissioning them.
+  - Researched and created a disaster recovery plan.
   reason_for_leaving: I received no raises, no budget for my department, and no hope
     for improvement for two years, so I trained my remote couterpart, and offered
     to work as needed on an hourly basis before resigning.
@@ -250,27 +260,26 @@ experience:
   starting_compensation: p7rzaBWJ0vZC8E5xyJ+XVg==
   ending_compensation: QyVR8z9RxaQm7F1duQxCCg==
   description:
-  - "• Configured, installed, upgraded, and supported hardware including workstations,
+  - Configured, installed, upgraded, and supported hardware including workstations,
     laptops, Dell PowerEdge servers, PowerVault disk arrays and tape libraries, APC
-    UPS products, and Cisco switches, routers, and firewalls."
-  - "• Set up and supported operating systems, server software, and applications on
+    UPS products, and Cisco switches, routers, and firewalls.
+  - 'Set up and supported operating systems, server software, and applications on
     all computers in the company including Windows 2000/XP/2003, Debian Linux, and
     Macintosh OS X, Active Directory, DNS, Exchange 2000, IIS, SharePoint, SQL Server
     2000, WSUS, Apache, Exim, MySQL, Nagios, Request Tracker, Blackberry Enterprise
     Server, Goldmine, Veritas Backup Exec, VMware, Trend Micro SMB, and our own products:
-    Winternals Recovery Manager, Defrag Manager, and Protection Manager."
-  - "• Configured and maintained the Iwatsu/ADIX telecommunications system."
-  - "• Designed, upgraded, and installed various systems such as the ADT security
-    system, fiber network, Cisco 4006 switch, and our rack at the colocation facility."
-  - "• Purchased software, hardware, and services for the company, and maintained
-    good vendor relations with Dell, CDW, and our Internet provider, Time Warner."
-  - "• Established and maintained network users, user environment, file shares, and
-    security."
-  - "• Trained users on software and equipment usage."
-  - "• Tracked my work and answered users' questions using the Request Tracker ticketing
-    system."
-  - "• Developed and implemented disaster recovery procedures."
-  - "• Responded to system alerts 24 hours a day, 7 days a week."
+    Winternals Recovery Manager, Defrag Manager, and Protection Manager.'
+  - Configured and maintained the Iwatsu/ADIX telecommunications system.
+  - Designed, upgraded, and installed various systems such as the ADT security system,
+    fiber network, Cisco 4006 switch, and our rack at the colocation facility.
+  - Purchased software, hardware, and services for the company, and maintained good
+    vendor relations with Dell, CDW, and our Internet provider, Time Warner.
+  - Established and maintained network users, user environment, file shares, and security.
+  - Trained users on software and equipment usage.
+  - Tracked my work and answered users' questions using the Request Tracker ticketing
+    system.
+  - Developed and implemented disaster recovery procedures.
+  - Responded to system alerts 24 hours a day, 7 days a week.
   reason_for_leaving: Winternals was acquired by Microsoft.
 - tags: 
   title: Assistant Catastrophe Adjuster
@@ -288,12 +297,12 @@ experience:
   starting_compensation: "/r7oInfurbZa8gPfARKR1g=="
   ending_compensation: "/r7oInfurbZa8gPfARKR1g=="
   description:
-  - "• Contacted insurance policy holders and scheduled appointments."
-  - "• Drove the adjusting team to damage sites across eastern Virginia."
-  - "• Inspected roofs, siding, house interiors, and personal possessions for hurricane
-    damage."
-  - "• Sketched roof, siding, and interior diagrams and measured damaged areas."
-  - "• Performed the various office duties needed to close the policy holders' files."
+  - Contacted insurance policy holders and scheduled appointments.
+  - Drove the adjusting team to damage sites across eastern Virginia.
+  - Inspected roofs, siding, house interiors, and personal possessions for hurricane
+    damage.
+  - Sketched roof, siding, and interior diagrams and measured damaged areas.
+  - Performed the various office duties needed to close the policy holders' files.
   reason_for_leaving: Position was temporary.
 - tags: 
   title: CSD Network Tech/Specialist
@@ -311,10 +320,10 @@ experience:
   starting_compensation: QmTKZDUC6R0APLeOOL3AXA==
   ending_compensation: zrg1WmpWGvKZ9TCz194h2g==
   description:
-  - "• Provided hardware tech support for Precision Workstations and PowerEdge Servers."
-  - "• Provided operating system and driver support for all versions of Windows and
-    Red Hat Linux."
-  - "• Administered Dell's internal Precision Workstation website."
+  - Provided hardware tech support for Precision Workstations and PowerEdge Servers.
+  - Provided operating system and driver support for all versions of Windows and Red
+    Hat Linux.
+  - Administered Dell's internal Precision Workstation website.
   reason_for_leaving: Dell offered me another, better phone support position, but
     I didn't want to be on the phones anymore.
 - tags: 
@@ -333,9 +342,9 @@ experience:
   starting_compensation: YoKEHKE8UYPs0Awa+wFLRA==
   ending_compensation: YoKEHKE8UYPs0Awa+wFLRA==
   description:
-  - "• Provided tech support for QuixNet dial-up connections."
-  - "• Provided tech support for Covad DSL and T1 lines."
-  - "• Performed customer service duties for both of the companies above."
+  - Provided tech support for QuixNet dial-up connections.
+  - Provided tech support for Covad DSL and T1 lines.
+  - Performed customer service duties for both of the companies above.
   reason_for_leaving: Moved to Dallas.
 - tags: 
   title: Assistant Catastrophe Adjuster
@@ -353,11 +362,11 @@ experience:
   starting_compensation: d8QK/UbY8XmFFdUIw8HRdw==
   ending_compensation: d8QK/UbY8XmFFdUIw8HRdw==
   description:
-  - "• Contacted insurance policy holders and scheduled appointments."
-  - "• Drove the adjusting team to damage sites across southern and western Iowa."
-  - "• Inspected roofs, siding, and personal possessions for hail damage."
-  - "• Sketched roof and siding diagrams and measure damaged areas."
-  - "• Performed the various office duties needed to close the policy holders' files."
+  - Contacted insurance policy holders and scheduled appointments.
+  - Drove the adjusting team to damage sites across southern and western Iowa.
+  - Inspected roofs, siding, and personal possessions for hail damage.
+  - Sketched roof and siding diagrams and measure damaged areas.
+  - Performed the various office duties needed to close the policy holders' files.
   reason_for_leaving: Position was temporary.
 - tags: 
   title: Consultant
@@ -375,15 +384,15 @@ experience:
   starting_compensation: BUaReZ4QfZoWw+UgrDusbw==
   ending_compensation: DDxFCjkmuEGpAk8wxhqjSw==
   description:
-  - "• Administered and performed hardware repairs on the intranet web server at Alliant
-    Energy's System Operations Center (SOC)."
-  - "• Redesigned the SOC's website and administered a FrontPage sub-web for the SOC's
-    Generation group."
-  - "• Programmed several web-based user interfaces including an advanced problem
-    reporting system using an Oracle database, PHP, and JavaScript."
-  - "• Ported the problem reporting system to ASP/VBScript for the American Transmission
-    Company."
-  - "• Performed various troubleshooting tasks on the SOC's LAN."
+  - Administered and performed hardware repairs on the intranet web server at Alliant
+    Energy's System Operations Center (SOC).
+  - Redesigned the SOC's website and administered a FrontPage sub-web for the SOC's
+    Generation group.
+  - Programmed several web-based user interfaces including an advanced problem reporting
+    system using an Oracle database, PHP, and JavaScript.
+  - Ported the problem reporting system to ASP/VBScript for the American Transmission
+    Company.
+  - Performed various troubleshooting tasks on the SOC's LAN.
   reason_for_leaving: Moved back to Texas.
 - tags: 
   title: Technical Support
@@ -401,8 +410,8 @@ experience:
   starting_compensation: UztdlDsk18qrU9YVM1wZRQ==
   ending_compensation: 8ViZxGIPTG/5mBsEuPTZDw==
   description:
-  - "• Provided phone and e-mail tech support for dial-up and DSL connections."
-  - "• Provided customer service for business and residential accounts."
+  - Provided phone and e-mail tech support for dial-up and DSL connections.
+  - Provided customer service for business and residential accounts.
   reason_for_leaving: Obtained a web programming position at Exacta.
 - tags: 
   title: Hardware Technician
@@ -420,8 +429,8 @@ experience:
   starting_compensation: '08rjaE4lrjQGXIIsrT729w=='
   ending_compensation: '08rjaE4lrjQGXIIsrT729w=='
   description:
-  - "• Built, upgraded, and repaired PC systems."
-  - "• Provided tech support for hardware and software problems."
+  - Built, upgraded, and repaired PC systems.
+  - Provided tech support for hardware and software problems.
   fun_facts:
   - I actually got this job by opening the phone book, calling every computer store
     in town, and asking about open positions. As you can see, I didn't even get past
@@ -447,12 +456,11 @@ experience:
   starting_compensation: vH0W/JJ0LxWie8k2T6LSpw==
   ending_compensation: vH0W/JJ0LxWie8k2T6LSpw==
   description:
-  - "• Provided in-house and on-site hardware tech support for students' PC systems."
-  - "• Repaired various problems on the campus network (mostly rewiring bad RJ-45
-    jacks)."
-  - "• Designed TSTC's Quake II website and maintained the Quake II server."
-  - "• Provided phone tech support for TSTC's online services."
-  - "• Administered several web and file servers."
+  - Provided in-house and on-site hardware tech support for students' PC systems.
+  - Repaired various problems on the campus network (mostly rewiring bad RJ-45 jacks).
+  - Designed TSTC's Quake II website and maintained the Quake II server.
+  - Provided phone tech support for TSTC's online services.
+  - Administered several web and file servers.
   reason_for_leaving: Wanted to take more classes.
 - tags: 
   title: Sandwich Artist
@@ -470,10 +478,10 @@ experience:
   starting_compensation: 3n335pRPJEGJzcmRmFrUhQ==
   ending_compensation: "/zcdA7VTPfRWVd39VK0dOQ=="
   description:
-  - "• Prepared and assembled food into aesthetically pleasing sandwiches."
-  - "• Performed cashier duties."
-  - "• Cleaned."
-  - "• Closed the store and completed inventory and safe-deposit paperwork."
+  - Prepared and assembled food into aesthetically pleasing sandwiches.
+  - Performed cashier duties.
+  - Cleaned.
+  - Closed the store and completed inventory and safe-deposit paperwork.
   reason_for_leaving: Went back to college.
 - tags: 
   title: Express Associate
@@ -491,8 +499,8 @@ experience:
   starting_compensation: 2XpwFZ2XfmiBejJb0L6kgA==
   ending_compensation: e9YJSvRXQKnoYjlwKRXWRg==
   description:
-  - "• Performed some simple assembly line work at a medical supplies factory."
-  - "• Engaged in some outdoor manual labor at a sheetrock company."
+  - Performed some simple assembly line work at a medical supplies factory.
+  - Engaged in some outdoor manual labor at a sheetrock company.
   reason_for_leaving: They didn't provide enough jobs.
 - tags: 
   title: Maintenance Crew
@@ -510,9 +518,9 @@ experience:
   starting_compensation: eacjPJvIUwjOa6fscYxz9A==
   ending_compensation: eacjPJvIUwjOa6fscYxz9A==
   description:
-  - "• Unloaded, unpacked, tagged, and shelved the store's inventory."
-  - "• Vacuumed and mopped the entire department store."
-  - "• Executed astounding janitorial feats on the store's lavatory."
+  - Unloaded, unpacked, tagged, and shelved the store's inventory.
+  - Vacuumed and mopped the entire department store.
+  - Executed astounding janitorial feats on the store's lavatory.
   reason_for_leaving: Manager yelled at everyone all the time. Level of abuse far
     exceeded pay.
 - tags: 
@@ -531,7 +539,7 @@ experience:
   starting_compensation: eacjPJvIUwjOa6fscYxz9A==
   ending_compensation: wU/oyXQ8+oNEBdQCA1GQEA==
   description:
-  - "• (See the Subway entry above.)"
+  - "(See the Subway entry above.)"
   reason_for_leaving: Left for college.
 - tags: 
   title: Customer Service Representative
@@ -549,14 +557,14 @@ experience:
   starting_compensation: pDxq9Fw0sjBcNdMauBeATw==
   ending_compensation: eacjPJvIUwjOa6fscYxz9A==
   description:
-  - "• Flipped burgers, toasted buns, fried fries, and performed other miscellaneous
-    food preparation tasks."
-  - "• Attended the drive-thru and front counter cash registers."
-  - "• Taught myself to decipher the distorted, sloppy noises generated by my headset
-    and generate fairly accurate food orders."
-  - "• Emptied grease traps, mopped, and washed dishes."
-  - "• Developed passable marksmanship with sauce guns during the counter staff raids
-    into kitchen territory."
+  - Flipped burgers, toasted buns, fried fries, and performed other miscellaneous
+    food preparation tasks.
+  - Attended the drive-thru and front counter cash registers.
+  - Taught myself to decipher the distorted, sloppy noises generated by my headset
+    and generate fairly accurate food orders.
+  - Emptied grease traps, mopped, and washed dishes.
+  - Developed passable marksmanship with sauce guns during the counter staff raids
+    into kitchen territory.
   reason_for_leaving: My first foray into the whole "employement" thing literally
     left a bad taste in my mouth.
 certifications:
@@ -578,8 +586,8 @@ education:
   start_date: '1996-09-05'
   end_date: '2000-05-23'
   achievements:
-  - "• Cumulative GPA 3.225"
-  - "• Awarded President's Honor Roll"
+  - Cumulative GPA 3.225
+  - Awarded President's Honor Roll
 - tags: joke
   name: Texas A&M University
   address: Student Records at Heaton Hall Room 112
@@ -593,8 +601,8 @@ education:
   start_date: '1996'
   end_date: '1996'
   achievements:
-  - "• Boycotted homework."
-  - • Managed to get a "B" in my Computer Science class anyway.
+  - Boycotted homework.
+  - Managed to get a "B" in my Computer Science class anyway.
 - tags: heaven
   name: Alternative Choice for Education
   address: 1307 Memorial Drive
@@ -608,10 +616,10 @@ education:
   start_date: '1995'
   end_date: '1995'
   achievements:
-  - "• Went to school from noon to four."
-  - "• Didn't do any homework."
-  - "• Screwed around."
-  - "• Still got a high school diploma! (Priceless.)"
+  - Went to school from noon to four.
+  - Didn't do any homework.
+  - Screwed around.
+  - Still got a high school diploma! (Priceless.)
 - tags: high_school
   name: Bryan High School
   address: 3401 East 29th St
@@ -625,4 +633,4 @@ education:
   start_date: '1991'
   end_date: '1995'
   achievements:
-  - "• Scored 1210 on the SAT (560 Verbal, 670 Mathematics)."
+  - Scored 1210 on the SAT (560 Verbal, 670 Mathematics).
