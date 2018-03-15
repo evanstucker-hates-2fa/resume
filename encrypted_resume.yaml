@@ -59,8 +59,8 @@ experience:
   description:
   - For most of 2016, I was part of a small team that was creating a new platform
     in AWS. I built custom CentOS 7 and Oracle Linux 7 images using Packer, then we
-    used SparkleFormation, an infrastructure as code (IaC) tool that builds CloudFormation
-    templates, to build ELBs, ASGs, and other BS. We set up GitLab to house all of
+    used SparkleFormation (an infrastructure as code (IaC) Ruby DSL that builds CloudFormation
+    templates) to build ELBs, ASGs, and other BS. We set up GitLab to house all of
     the code, and used Puppet 4 with agent certificate extensions to manage our configuration.
   - 'App deploys, OS upgrades, developer requests, and on-call issues were another
     significant part of my workload. App deploys used to take two people four hours
