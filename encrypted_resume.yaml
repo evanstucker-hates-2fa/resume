@@ -4,7 +4,7 @@ contact:
   # ITU E.123 notation https://www.itu.int/rec/T-REC-E.123-200102-I/en
   phone: "+1 971 336 3223"
   email: evans.tucker@gmail.com
-biography: 'Evans Tucker is a senior Linux systems administrator, probably best known
+biography: 'Evans Tucker is a hardened DevOps Engineer, probably best known
   for causing a brief company-wide outage, but occasionally recognized for his elegant
   code and excellent process documentation. He practices Agile software development
   using DevOps, Scrum, and Kanban methodologies. In 2015, he and his family sold almost
@@ -15,6 +15,23 @@ biography: 'Evans Tucker is a senior Linux systems administrator, probably best 
   long.'
 experience:
 - tags: current story_time
+  title: DevOps Engineer
+  location: Remote/Telecommute
+  company: ConsenSys Inc.
+  address: '49 Bogart St #22'
+  city: Brooklyn
+  state: New York
+  zip_code: '11206'
+  phone: "+1 646 598 6376"
+  url: https://www.consensys.net/
+  supervisor: Griffin Anderson
+  start_date: '2018-04-18'
+  end_date: ''
+  starting_compensation: 
+  ending_compensation: 
+  description:
+  - 
+- tags: current story_time
   title: Site Reliability Engineer
   location: Portland, OR
   company: iovation Inc.
@@ -22,7 +39,7 @@ experience:
   city: Portland
   state: Oregon
   zip_code: '97204'
-  phone: "+1 (503) 224-6010"
+  phone: "+1 503 224 6010"
   url: https://www.iovation.com/
   supervisor: Aaron Blew
   start_date: '2017-11-13'
@@ -50,7 +67,7 @@ experience:
   city: Watertown
   state: Massachusetts
   zip_code: '02472'
-  phone: "+1 (800) 981-5084"
+  phone: "+1 800 981 5084"
   url: http://www.athenahealth.com/
   supervisor: Cameron King
   start_date: '2015-08-31'
@@ -153,7 +170,7 @@ experience:
   city: Austin
   state: Texas
   zip_code: '78727'
-  phone: "+1 (512) 372-8397"
+  phone: "+1 512 372 8397"
   url: http://www.schwab.com/
   supervisor: Irby Gaudet
   start_date: '2010-03-15'
@@ -184,7 +201,7 @@ experience:
   city: Austin
   state: Texas
   zip_code: '78759'
-  phone: "+1 (888) 811-3789"
+  phone: "+1 888 811 3789"
   url: http://www.renewdata.com/
   supervisor: Tony Colon
   start_date: '2009-10-15'
@@ -211,7 +228,7 @@ experience:
   city: Austin
   state: Texas
   zip_code: '78758'
-  phone: "+1 (512) 220-7414"
+  phone: "+1 512 220 7414"
   url: http://www.engauge.com/
   supervisor: Bob Elmer
   start_date: '2007-11-01'
@@ -253,7 +270,7 @@ experience:
   city: Austin
   state: Texas
   zip_code: '78746'
-  phone: "+1 (512) 330-9130"
+  phone: "+1 512 330 9130"
   url: http://www.winternals.com/
   supervisor: Matthew Bryce
   start_date: '2004-01-30'
@@ -290,7 +307,7 @@ experience:
   city: Norfolk
   state: Virginia
   zip_code: 
-  phone: "+1 (979) 255-5003"
+  phone: "+1 979 255 5003"
   url: mailto:arguello@earthlink.net
   supervisor: Martin Arguello
   start_date: '2003-09-20'
@@ -313,7 +330,7 @@ experience:
   city: Round Rock
   state: Texas
   zip_code: '78682'
-  phone: "+1 (512) 723-9134"
+  phone: "+1 512 723 9134"
   url: http://www.dell.com/
   supervisor: Tony Bass
   start_date: '2002-07-15'
@@ -335,7 +352,7 @@ experience:
   city: Bryan
   state: Texas
   zip_code: '77802'
-  phone: "+1 (979) 774-2700"
+  phone: "+1 979 774 2700"
   url: http://www.decisionone.com/
   supervisor: Noel Templeton
   start_date: '2001-10-08'
@@ -355,7 +372,7 @@ experience:
   city: Omaha
   state: Nebraska
   zip_code: 
-  phone: "+1 (979) 255-5003"
+  phone: "+1 979 255 5003"
   url: mailto:arguello@earthlink.net
   supervisor: Martin Arguello
   start_date: '2001-04-23'
@@ -377,7 +394,7 @@ experience:
   city: Madison
   state: Wisconsin
   zip_code: '53718'
-  phone: "+1 (608) 241-5100"
+  phone: "+1 608 241 5100"
   url: http://www.exactacorp.com/
   supervisor: Hank
   start_date: '2000-01-16'
@@ -403,7 +420,7 @@ experience:
   city: San Antonio
   state: Texas
   zip_code: '78205'
-  phone: "+1 (210) 357-9200"
+  phone: "+1 210 357 9200"
   url: http://www.texas.net/
   supervisor: Tim Yaeger
   start_date: '1999-09-10'
@@ -422,7 +439,7 @@ experience:
   city: San Antonio
   state: Texas
   zip_code: '78238'
-  phone: "+1 (210) 647-0125"
+  phone: "+1 210 647 0125"
   url: http://www.askacs.com/
   supervisor: Jeff Chamberlain
   start_date: '1999-07-06'
@@ -449,7 +466,7 @@ experience:
   city: Waco
   state: Texas
   zip_code: '76705'
-  phone: "+1 (800) 792-8784"
+  phone: "+1 800 792 8784"
   url: http://www.waco.tstc.edu/
   supervisor: Susan Meyers
   start_date: '1997'
@@ -471,7 +488,7 @@ experience:
   city: College Station
   state: Texas
   zip_code: '77840'
-  phone: "+1 (979) 764-8602"
+  phone: "+1 979 764 8602"
   url: http://www.subway.com/
   supervisor: Belinda
   start_date: '1997-07-15'
@@ -492,7 +509,7 @@ experience:
   city: Waco
   state: Texas
   zip_code: '76710'
-  phone: "+1 (254) 776-3302"
+  phone: "+1 254 776 3302"
   url: http://www.expresspersonnel.com/
   supervisor: 
   start_date: '1996-11-01'
@@ -532,7 +549,7 @@ experience:
   city: Bryan
   state: Texas
   zip_code: '77802'
-  phone: "+1 (979) 846-4972"
+  phone: "+1 979 846 4972"
   url: http://www.subway.com/
   supervisor: Candy
   start_date: '1996-02-15'
@@ -550,7 +567,7 @@ experience:
   city: Bryan
   state: Texas
   zip_code: '77802'
-  phone: "+1 (979) 822-3011"
+  phone: "+1 979 822 3011"
   url: http://www.mcdonalds.com/
   supervisor: Sherry
   start_date: '1994-05-01'
@@ -580,7 +597,7 @@ education:
   city: Waco
   state: Texas
   zip_code: '76705'
-  phone: "+1 (800) 792-8784"
+  phone: "+1 800 792 8784"
   url: http://www.waco.tstc.edu/
   degree: Associate of Applied Science
   major: Computer Science Technology
@@ -595,7 +612,7 @@ education:
   city: College Station
   state: Texas
   zip_code: '77843'
-  phone: "+1 (979) 845-1003"
+  phone: "+1 979 845 1003"
   url: http://www.tamu.edu/
   degree: Incomplete
   major: Computer Science
@@ -610,7 +627,7 @@ education:
   city: Bryan
   state: Texas
   zip_code: '77802'
-  phone: "+1 (979) 731-7855"
+  phone: "+1 979 731 7855"
   url: http://www.bryanisd.org/school.asp?schoolID=9
   degree: High School Diploma
   major: 
@@ -627,7 +644,7 @@ education:
   city: Bryan
   state: Texas
   zip_code: '77802'
-  phone: "+1 (979) 731-7400"
+  phone: "+1 979 731 7400"
   url: http://www.ci.bryanisd.org/bryanhs/
   degree: Incomplete
   major: 
