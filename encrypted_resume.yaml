@@ -1,7 +1,8 @@
 ---
 contact:
   name: Evans Tucker
-  phone: "+1 (971) 336-3223"
+  # ITU E.123 notation https://www.itu.int/rec/T-REC-E.123-200102-I/en
+  phone: "+1 971 336 3223"
   email: evans.tucker@gmail.com
 biography: 'Evans Tucker is a senior Linux systems administrator, probably best known
   for causing a brief company-wide outage, but occasionally recognized for his elegant
