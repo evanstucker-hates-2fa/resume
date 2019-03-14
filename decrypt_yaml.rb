@@ -24,12 +24,16 @@ resume = YAML.load_file('encrypted_resume.yaml')
 
 resume['experience'].each do |job|
   # starting_compensation
-  decrypted = decrypt(job['starting_compensation'])
-  job['starting_compensation'] = decrypted
+  unless job['starting_compensation'].nil?
+    decrypted = decrypt(job['starting_compensation'])
+    job['starting_compensation'] = decrypted
+  end
 
   # ending_compensation
-  decrypted = decrypt(job['ending_compensation'])
-  job['ending_compensation'] = decrypted
+  unless job['ending_compensation'].nil?
+    decrypted = decrypt(job['ending_compensation'])
+    job['ending_compensation'] = decrypted
+  end
 end
 
 f = File.new('decrypted_resume.yaml', 'w+')
