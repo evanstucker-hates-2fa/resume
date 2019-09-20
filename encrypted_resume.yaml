@@ -47,6 +47,7 @@ experience:
     in 3 countries to add ~20 services to our platform, roughly doubling the number
     of services when I first started.
   - kops
+  - self-organizing
   - yak shaving
   - Jenkinsfile CI/CD pipeline
   - Dockerfile
