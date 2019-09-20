@@ -29,16 +29,30 @@ experience:
   starting_compensation: yL/xhRZC7P8rcQgENl0uFQ==
   ending_compensation: 
   description:
-  - Kubernetes
-  - Terraform
-  - Ansible
+  - ConsenSys is a global blockchain technology company building the infrastructure,
+    applications, and practices that enable a decentralized world.  It was founded
+    by Joe Lubin, who is also a co-founder of the Ethereum blockchain. Instead of
+    a traditional hierarchy, it's comprised of a venture studio with over 50 autonomous
+    startups; a few alignment circles that govern funding, HR, etc.; and an ever-changing
+    list of other circles that host conferences, provide blockchain education, etc.
+    It's a remote-first company based in New York with offices all around the world.
+    I was hired at one of the startups within ConsenSys named Balanc3. Balanc3 provides
+    financial management for digital assets like cryptocurrency and tokens.
+  - When I started at Balanc3, I was given five Kubernetes clusters that the previous
+    DevOps Engineer deployed to AWS with Terraform and some custom Ansible scripts.
+    I quickly learned how to maintain these clusters and deploy new services to them.
+    On the tenth business day of my employment, my predecessor handed me the admin
+    keys and left Balanc3 to go back into the larger ConsenSys mesh, leaving me as
+    the sole DevOps person for Balanc3. During my first year, I worked with ~20 developers
+    in 3 countries to add ~20 services to our platform, roughly doubling the number
+    of services when I first started.
+  - kops
+  - yak shaving
   - Jenkinsfile CI/CD pipeline
   - Dockerfile
-  - AWS
   - github
   - node.js
   - cassandra, timescaledb, mongodb postgresql, redis
-  - kops
   - helm
   - elk
   - prometheus
