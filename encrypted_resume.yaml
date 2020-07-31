@@ -16,6 +16,23 @@ experience:
 - tags: current story_time
   title: DevOps Engineer
   location: Remote/Telecommute
+  company: ConsenSys Software Inc.
+  address: '49 Bogart St #22'
+  city: Brooklyn
+  state: New York
+  zip_code: '11206'
+  phone: "+1-646-598-6376"
+  url: https://www.consensys.net/
+  supervisor: 
+  start_date: '2020-08-17'
+  end_date: ''
+  starting_compensation: yL/xhRZC7P8rcQgENl0uFQ==
+  ending_compensation:
+  description:
+  - Same shit, new company name.
+- tags: current story_time
+  title: DevOps Engineer
+  location: Remote/Telecommute
   company: ConsenSys Inc.
   address: '49 Bogart St #22'
   city: Brooklyn
@@ -23,11 +40,11 @@ experience:
   zip_code: '11206'
   phone: "+1-646-598-6376"
   url: https://www.consensys.net/
-  supervisor: Griffin Anderson
+  supervisor: Griffin Anderson, Patrick Berarducci, Lex Sokolin, Didier Le Floch
   start_date: '2018-04-18'
-  end_date: ''
+  end_date: '2020-08-17'
   starting_compensation: yL/xhRZC7P8rcQgENl0uFQ==
-  ending_compensation: 
+  ending_compensation:
   description:
   - ConsenSys is a global blockchain technology company building the infrastructure,
     applications, and practices that enable a decentralized world.  It was founded
@@ -46,26 +63,47 @@ experience:
     the sole DevOps person for Balanc3. During my first year, I worked with ~20 developers
     in 3 countries to add ~20 services to our platform, roughly doubling the number
     of services when I first started.
-  - kops
-  - self-organizing
-  - yak shaving
-  - Jenkinsfile CI/CD pipeline
-  - Dockerfile
-  - github
-  - node.js
-  - cassandra, timescaledb, mongodb postgresql, redis
-  - helm
-  - elk
-  - prometheus
-  - grafana
-  - parity
-  - unleash
-  - chartmuseum
-  - sonatype nexus
-  - keycloak oidc
+  - Meridio, Codefi Activate, Codefi Airswap, Mata Capital, Kaleido, a large bond
+    credit rating business.
+  - auth0
   - bitcoind
+  - cassandra, timescaledb, mongodb postgresql, redis
   - cert-manager let's encrypt nginx-ingress external-dns
+  - chartmuseum
+  - cloudflare
+  - dockerfile
+  - elasticStack (elasticsearch, filebeat, kibana)
+  - fluxcd?
+  - github
+  - gitlab CI, Let's Encrypt ACME cert-manager,
+  - gitlab-runner
+  - harbor with trivy
+  - hashicorp vault?
+  - helm
+  - jenkinsfile CI/CD pipeline
+  - keycloak oidc
+  - kong api gateway
+  - kops
+  - kube2iam
+  - linkerd/istio?
+  - metabase
+  - metrics-server
+  - nginx-ingress
+  - node.js create react app (CRA)
+  - oauth2 and oidc
+  - okta
+  - parity
+  - pomerium
+  - prometheus (prometheus-operator) alertmanager grafana
+  - redis
+  - self-organizing
+  - skaffold
+  - sonarqube
+  - sonatype nexus and verdaccio
+  - unleash
+  - unleash
   - worked with Metamask team, spoke with PWC about security needs SOC2 etc.?
+  - yak shaving
 - tags: current story_time
   title: Site Reliability Engineer
   location: Portland, OR
@@ -155,7 +193,7 @@ experience:
   city: Austin
   state: Texas
   zip_code: '78731'
-  phone: 
+  phone:
   url: http://www.indeed.com/
   supervisor: Jason Koppe
   start_date: '2013-11-25'
@@ -334,14 +372,14 @@ experience:
   - Developed and implemented disaster recovery procedures.
   - Responded to system alerts 24 hours a day, 7 days a week.
   reason_for_leaving: Winternals was acquired by Microsoft.
-- tags: 
+- tags:
   title: Assistant Catastrophe Adjuster
   location: Norfolk, VA
   company: Martin Arguello
-  address: 
+  address:
   city: Norfolk
   state: Virginia
-  zip_code: 
+  zip_code:
   phone: "+1-979-255-5003"
   url: mailto:arguello@earthlink.net
   supervisor: Martin Arguello
@@ -357,7 +395,7 @@ experience:
   - Sketched roof, siding, and interior diagrams and measured damaged areas.
   - Performed the various office duties needed to close the policy holders' files.
   reason_for_leaving: Position was temporary.
-- tags: 
+- tags:
   title: CSD Network Tech/Specialist
   location: Round Rock, TX
   company: Dell Corporation
@@ -379,7 +417,7 @@ experience:
   - Administered Dell's internal Precision Workstation website.
   reason_for_leaving: Dell offered me another, better phone support position, but
     I didn't want to be on the phones anymore.
-- tags: 
+- tags:
   title: Technical Support
   location: Bryan, TX
   company: DecisionOne
@@ -399,14 +437,14 @@ experience:
   - Provided tech support for Covad DSL and T1 lines.
   - Performed customer service duties for both of the companies above.
   reason_for_leaving: Moved to Dallas.
-- tags: 
+- tags:
   title: Assistant Catastrophe Adjuster
   location: Omaha, NE
   company: Martin Arguello
-  address: 
+  address:
   city: Omaha
   state: Nebraska
-  zip_code: 
+  zip_code:
   phone: "+1-979-255-5003"
   url: mailto:arguello@earthlink.net
   supervisor: Martin Arguello
@@ -421,7 +459,7 @@ experience:
   - Sketched roof and siding diagrams and measure damaged areas.
   - Performed the various office duties needed to close the policy holders' files.
   reason_for_leaving: Position was temporary.
-- tags: 
+- tags:
   title: Consultant
   location: Madison, WI
   company: Exacta Corporation
@@ -447,7 +485,7 @@ experience:
     Company.
   - Performed various troubleshooting tasks on the SOC's LAN.
   reason_for_leaving: Moved back to Texas.
-- tags: 
+- tags:
   title: Technical Support
   location: San Antonio, TX
   company: Texas.Net
@@ -466,7 +504,7 @@ experience:
   - Provided phone and e-mail tech support for dial-up and DSL connections.
   - Provided customer service for business and residential accounts.
   reason_for_leaving: Obtained a web programming position at Exacta.
-- tags: 
+- tags:
   title: Hardware Technician
   location: San Antonio, TX
   company: Amenity Computer Services
@@ -493,7 +531,7 @@ experience:
     in the wrong position, partially inserted cards, cables plugged in backwards,
     bent pins, etc. I got it working pretty quickly and he hired me on the spot.
   reason_for_leaving: Found a better position at Texas.Net.
-- tags: 
+- tags:
   title: Technical Support Volunteer
   location: Waco, TX
   company: TSTC Student Online Services
@@ -515,7 +553,7 @@ experience:
   - Provided phone tech support for TSTC's online services.
   - Administered several web and file servers.
   reason_for_leaving: Wanted to take more classes.
-- tags: 
+- tags:
   title: Sandwich Artist
   location: College Station, TX
   company: Subway
@@ -536,7 +574,7 @@ experience:
   - Cleaned.
   - Closed the store and completed inventory and safe-deposit paperwork.
   reason_for_leaving: Went back to college.
-- tags: 
+- tags:
   title: Express Associate
   location: Waco, TX
   company: Express Personnel Services
@@ -546,7 +584,7 @@ experience:
   zip_code: '76710'
   phone: "+1-254-776-3302"
   url: http://www.expresspersonnel.com/
-  supervisor: 
+  supervisor:
   start_date: '1996-11-01'
   end_date: '1996-11-30'
   starting_compensation: 2XpwFZ2XfmiBejJb0L6kgA==
@@ -555,7 +593,7 @@ experience:
   - Performed some simple assembly line work at a medical supplies factory.
   - Engaged in some outdoor manual labor at a sheetrock company.
   reason_for_leaving: They didn't provide enough jobs.
-- tags: 
+- tags:
   title: Maintenance Crew
   location: Bryan, TX
   company: 50 Off Store
@@ -563,8 +601,8 @@ experience:
   city: Bryan
   state: Texas
   zip_code: '77802'
-  phone: 
-  url: 
+  phone:
+  url:
   supervisor: Mr. Bush
   start_date: '1996-05-10'
   end_date: '1996-06-07'
@@ -576,7 +614,7 @@ experience:
   - Executed astounding janitorial feats on the store's lavatory.
   reason_for_leaving: Manager yelled at everyone all the time. Level of abuse far
     exceeded pay.
-- tags: 
+- tags:
   title: Sandwich Artist
   location: Bryan, TX
   company: Subway
@@ -594,7 +632,7 @@ experience:
   description:
   - "(See the Subway entry above.)"
   reason_for_leaving: Left for college.
-- tags: 
+- tags:
   title: Customer Service Representative
   location: Bryan, TX
   company: McDonald's
@@ -665,7 +703,7 @@ education:
   phone: "+1-979-731-7855"
   url: http://www.bryanisd.org/school.asp?schoolID=9
   degree: High School Diploma
-  major: 
+  major:
   start_date: '1995'
   end_date: '1995'
   achievements:
@@ -682,7 +720,7 @@ education:
   phone: "+1-979-731-7400"
   url: http://www.ci.bryanisd.org/bryanhs/
   degree: Incomplete
-  major: 
+  major:
   start_date: '1991'
   end_date: '1995'
   achievements:
