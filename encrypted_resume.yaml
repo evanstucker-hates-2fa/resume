@@ -23,11 +23,11 @@ experience:
   zip_code: '11206'
   phone: "+1-646-598-6376"
   url: https://www.consensys.net/
-  supervisor: 
+  supervisor:
   start_date: '2020-08-17'
   end_date: ''
   starting_compensation: yL/xhRZC7P8rcQgENl0uFQ==
-  ending_compensation:
+  ending_compensation: gPZP8ocWH2jajQ9cJwdZPA==
   description:
   - Same shit, new company name.
 - tags: current story_time
@@ -44,7 +44,7 @@ experience:
   start_date: '2018-04-18'
   end_date: '2020-08-17'
   starting_compensation: yL/xhRZC7P8rcQgENl0uFQ==
-  ending_compensation:
+  ending_compensation: yL/xhRZC7P8rcQgENl0uFQ==
   description:
   - ConsenSys is a global blockchain technology company building the infrastructure,
     applications, and practices that enable a decentralized world.  It was founded
