@@ -104,6 +104,17 @@ experience:
   - unleash
   - worked with Metamask team, spoke with PWC about security needs SOC2 etc.?
   - yak shaving
+
+  - Joined ConsenSys in April 2018 on the Balanc3 project, transitioned to Meridio, and was the lone DevOps person supporting multiple teams that eventually coalesced into the Codefi group.
+  - Currently specialized in architecting containerized solutions on Kubernetes using Helm, and building CI/CD workflows.
+  - Advocate for a DevSecOps culture prioritizing infosec and compliance.
+  - Experience and enthusiasm for building decentralized architectures using self-hosted free open source software and P2P protocols like IPFS.
+  - Airswap: “peer-to-peer trading through a suite of apps and tools that are free and easy to use.” Migrated some services to a new AWS account and new Kubernetes cluster.
+  - Activate: “buy, use, and manage your utility tokens.” Refined CI/CD pipelines, improved code auditing and security scanning.
+  - Codefi: “blockchain application suite powering commerce and finance.” Built new multi-tenant clusters and CI/CD pipelines in US and EU to support multiple teams and projects.
+  - Assets: deployed new Kubernetes clusters and our Assets suite of applications for a real estate private equity platform.
+  - Meridio: “create and invest in shares of individual properties on the blockchain.” Migrated expensive AWS ECS clusters to Kubernetes. Deployed several whiteboxed versions of this platform for various clients.
+  - Balanc3: “financial management for digital assets.” Updated custom Ansible-based Kubernetes clusters to most popular community-supported tool at the time, kops. Also migrated all custom deployments to Helm. Significantly reduced the cost of the clusters as well by consolidating and performance tuning.
 - tags: current story_time
   title: Site Reliability Engineer
   location: Portland, OR
