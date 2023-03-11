@@ -3,9 +3,13 @@
 # Obligatory TODOs:
 # * Fix broken squiggly HEREDOC output in the experience loop.
 
+require 'date'
 require 'yaml'
 
-resume = YAML.load_file('decrypted_resume.yaml')
+resume = YAML.load_file(
+  'decrypted_resume.yaml',
+  permitted_classes: [Date]
+)
 
 # I would love to split out the CSS and Javascript into separate files to make
 # it easier to run pre-commit hooks on them, but I also want my resume to be a

@@ -15,6 +15,7 @@ def encrypt(plaintext)
   return encrypted_base64
 end
 
+require 'date'
 require 'yaml'
 require 'openssl'
 require 'base64'
@@ -25,7 +26,10 @@ $salt = '8 octets'
 print "Pass phrase: "
 $pass_phrase = gets.strip
 
-resume = YAML.load_file('decrypted_resume.yaml')
+resume = YAML.load_file(
+  'decrypted_resume.yaml',
+  permitted_classes: [Date]
+)
 
 resume['experience'].each do |job|
   # starting_compensation
