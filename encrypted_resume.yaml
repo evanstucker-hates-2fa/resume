@@ -39,6 +39,14 @@ experience:
     we built infrastructure for the MetaMask Swap service and APIs. As of Nov. 2021,
     this service enabled more than $10 billion USD in peer-to-peer token swapping,
     generating $87.5 million in revenue. We did that with a team of just two!
+  - 'From 2020 to mid-2022, I onboarded ten DevOps people; scheduled and led a
+    set of cross-regional meetings to collaborate with other DevOps teams around
+    the world, and advocate for process standardization; organized the team''s
+    work using the kanban project management methodology; performed backlog
+    grooming, prioritization, assignment, and led our team''s standup meetings;
+    acted as the oncall incident commander for production outages; and trained
+    developers on Kubernetes and pipelines to give them more autonomy, which
+    ultimately gave them a better developer experience.'
   - In 2021, in addition to supporting previous projects, I helped launch Palm NFT
     Studio, which partnered with heni.com to create an interesting NFT project called
     "The Currency" by artist Damien Hirst.
@@ -52,6 +60,7 @@ experience:
     Also Ethereum blockchain nodes Geth, Hyperledger Besu, Teku, Parity, and Truffle
     Suite''s Ganache. And finally, bitcoind and IPFS. I also deployed artifact repositories:
     Chartmuseum, Harbor, Sonatype Nexus, and Verdaccio.'
+  reason_for_leaving: Frustration, isolation, and burnout... I decided to give myself a sabbatical.
 - tags: current story_time
   title: Site Reliability Engineer
   location: Portland, OR
