@@ -3,15 +3,17 @@ contact:
   name: Evans Tucker
   phone: "+1 971-336-3223"
   email: gmail@evanstucker.com
-biography: 'Evans Tucker is a hardened DevOps Engineer, probably best known for causing
-  a brief company-wide outage, but occasionally recognized for his elegant code and
-  excellent process documentation. Evans is a strong advocate for: free and open source
-  software; a decentralized, distributed web; and a post-scarcity economy where we
-  can just sit around philosophizing all day long.'
+biography: 'I''m a seasoned DevSecOps engineer with 19 years of experience building
+  secure, resilient infrastructure. It feels like I''ve done everything: racking and
+  cabling servers, migrating to VMs, database administration, configuration management,
+  migrating again to cloud, CI/CD pipelines, observability, and now containerization.
+  I love Kubernetes, Linux, free open source software, and decentralization. When
+  I''m not leading a high-performing cross-functional team of computer nerds to victory,
+  I enjoy watching questionable memes with my family, sailing, and exploring.'
 experience:
 - tags: current story_time
   title: Lead DevOps Engineer
-  location: Remote/Telecommute
+  location: Remote
   company: ConsenSys Software Inc.
   address: '49 Bogart St #22'
   city: Brooklyn
@@ -39,14 +41,13 @@ experience:
     we built infrastructure for the MetaMask Swap service and APIs. As of Nov. 2021,
     this service enabled more than $10 billion USD in peer-to-peer token swapping,
     generating $87.5 million in revenue. We did that with a team of just two!
-  - 'From 2020 to mid-2022, I onboarded ten DevOps people; scheduled and led a
-    set of cross-regional meetings to collaborate with other DevOps teams around
-    the world, and advocate for process standardization; organized the team''s
-    work using the kanban project management methodology; performed backlog
-    grooming, prioritization, assignment, and led our team''s standup meetings;
-    acted as the oncall incident commander for production outages; and trained
-    developers on Kubernetes and pipelines to give them more autonomy, which
-    ultimately gave them a better developer experience.'
+  - From 2020 to mid-2022, I onboarded ten DevOps people; scheduled and led a set
+    of cross-regional meetings to collaborate with other DevOps teams around the world,
+    and advocate for process standardization; organized the team's work using the
+    kanban project management methodology; performed backlog grooming, prioritization,
+    assignment, and led our team's standup meetings; acted as the oncall incident
+    commander for production outages; and trained developers on Kubernetes and pipelines
+    to give them more autonomy, which ultimately gave them a better developer experience.
   - In 2021, in addition to supporting previous projects, I helped launch Palm NFT
     Studio, which partnered with heni.com to create an interesting NFT project called
     "The Currency" by artist Damien Hirst.
@@ -60,7 +61,8 @@ experience:
     Also Ethereum blockchain nodes Geth, Hyperledger Besu, Teku, Parity, and Truffle
     Suite''s Ganache. And finally, bitcoind and IPFS. I also deployed artifact repositories:
     Chartmuseum, Harbor, Sonatype Nexus, and Verdaccio.'
-  reason_for_leaving: Frustration, isolation, and burnout... I decided to give myself a sabbatical.
+  reason_for_leaving: Frustration, isolation, and burnout... I decided to give myself
+    a sabbatical.
 - tags: current story_time
   title: Site Reliability Engineer
   location: Portland, OR
@@ -89,7 +91,7 @@ experience:
     for creating a PR to do this work. I resigned.
 - tags: current story_time
   title: Senior Member of Technical Staff
-  location: Remote/Telecommute
+  location: Remote
   company: athenahealth, Inc.
   address: 311 Arsenal St
   city: Watertown
@@ -129,7 +131,7 @@ experience:
     and ended up building POCs for Zabbix and Zenoss. Unfortunately, this was during
     a turbulent time for our company, so the monitoring projects were abandoned as
     well.
-  - Telecommuting was excellent! This was my first 100% remote/telecommuting position.
+  - Telecommuting was excellent! This was my first 100% remote position.
     Initially it was amazing to be able to focus on a project with almost no interruptions
     for hours at a time. As I got more popular, and started working with more teams,
     meetings began to chip away at the large blocks of contiguous time. With frequent
