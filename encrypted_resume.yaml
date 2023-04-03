@@ -29,7 +29,7 @@ experience:
   ending_compensation: kf1NzFGx8U18ibb8tedv/w==
   description:
   - Kubering all of the netes. YAML YAML YAML YAML  YAML YAML. Did you catch that extra space? I did. I see all spaces. Things are constantly in Flux around here, so every day, I don my heavily kustomized helm, chart a jsonpath to the correct gitops repo, and prepare to do battle with the intrusion of bugs pouring through the spaces of our poor indentation.
-  - Creating labrythine CI/CD pipelines full of tricks and traps and impossible tests to ensure that only the strongest, smartest code reaches production. Innumerable trembling piles of spaghetti code have entered the daedalean pit that is our CI/CD pipeline, but all that emerges are the screeches of a thousand vulns and a sickly zephyr reeking of codesmell.
+  - Creating labyrinthine CI/CD pipelines full of tricks and traps and impossible tests to ensure that only the strongest, smartest code reaches production. Innumerable trembling piles of spaghetti code have entered the daedalean pit that is our CI/CD pipeline, but all that emerges are the screeches of a thousand vulns and a sickly zephyr reeking of codesmell.
   - AAA lot of DevOps folks are just SSO so at access management, but IAM an expert! My DevOps team and I never turn RBAC on The Dark Forest of bots, phishermen, social engineers, antisocial engineers, etc. It is my solemn OAuth to keep our infra secure!
   - 'Get outta here with your 2FA, you need at least 3FA around my infra. Maybe 4FA if I catch you trying any sketchy biz. You''ll F so much A that you won''t even remember what you logged in for by the time you finally get in.'
 - tags: current story_time
