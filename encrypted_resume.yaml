@@ -11,27 +11,43 @@ biography: 'I''m a seasoned DevSecOps engineer with 19 years of experience build
   I''m not leading a high-performing cross-functional team of computer nerds to victory,
   I enjoy watching questionable memes with my family, sailing, and exploring.'
 experience:
-- tags: story_time just_kidding
-  title: Lead DevOps Engineer
-  location: Remote
-  company: ConsenSys Software Inc.
-  address: '49 Bogart St #22'
-  city: Brooklyn
-  state: New York
-  zip_code: '11206'
-  phone: "+1 646-598-6376"
-  url: https://www.consensys.net/
-  supervisor: Griffin Anderson, Patrick Berarducci, Lex Sokolin, Didier Le Floch,
-    Bogdan Suvar
-  start_date: 2018-04-18
-  end_date: 2023-02-17
-  starting_compensation: yL/xhRZC7P8rcQgENl0uFQ==
-  ending_compensation: kf1NzFGx8U18ibb8tedv/w==
+- tags: current story_time
+  title: Staff Software Development Engineer, Infrastructure
+  location: San Diego, CA
+  company: Platform Science, Inc.
+  address: '9560 Towne Centre Dr #200'
+  city: San Diego
+  state: California
+  zip_code: '92121'
+  phone:
+  url: https://www.platformscience.com/
+  supervisor: Michael Romero
+  start_date: 2023-04-24
+  end_date:
+  starting_compensation: uDg9+T5Y5l8y0Ou+qdX1lA==
+  ending_compensation:
   description:
-  - Kubering all of the netes. YAML YAML YAML YAML  YAML YAML. Did you catch that extra space? I did. I see all spaces. Things are constantly in Flux around here, so every day, I don my heavily kustomized helm, chart a jsonpath to the correct gitops repo, and prepare to do battle with the intrusion of bugs pouring through the spaces of our poor indentation.
-  - Creating labyrinthine CI/CD pipelines full of tricks and traps and impossible tests to ensure that only the strongest, smartest code reaches production. Innumerable trembling piles of spaghetti code have entered the daedalean pit that is our CI/CD pipeline, but all that emerges are the screeches of a thousand vulns and a sickly zephyr reeking of codesmell.
-  - AAA lot of DevOps folks are just SSO so at access management, but IAM an expert! My DevOps team and I never turn RBAC on The Dark Forest of bots, phishermen, social engineers, antisocial engineers, etc. It is my solemn OAuth to keep our infra secure!
-  - 'Get outta here with your 2FA, you need at least 3FA around my infra. Maybe 4FA if I catch you trying any sketchy biz. You''ll F so much A that you won''t even remember what you logged in for by the time you finally get in.'
+  -
+- tags: story_time just_kidding
+  title: Lead DevSecOops Engineer
+  description:
+  - Kubering all of the netes. YAML YAML YAML YAML  YAML YAML. Did you catch that
+    extra space? I did. I see all spaces. Things are constantly in Flux around here,
+    so every day, I don my heavily kustomized helm, chart a jsonpath to the correct
+    gitops repo, and prepare to do battle with the intrusion of bugs pouring through
+    the spaces of our poor indentation.
+  - Creating labyrinthine CI/CD pipelines full of tricks and traps and impossible
+    tests to ensure that only the strongest, smartest code reaches production. Innumerable
+    trembling piles of spaghetti code have entered the daedalean pit that is our CI/CD
+    pipeline, but all that emerges are the screeches of a thousand vulns and a sickly
+    zephyr reeking of codesmell.
+  - AAA lot of DevOps folks are just SSO so at access management, but IAM an expert!
+    My DevOps team and I never turn RBAC on The Dark Forest of bots, phishermen, social
+    engineers, antisocial engineers, etc. It is my solemn OAuth to keep our infra
+    secure!
+  - Get outta here with your 2FA, you need at least 3FA around my infra. Maybe 4FA
+    if I catch you trying any sketchy biz. You'll F so much A that you won't even
+    remember what you logged in for by the time you finally get in.
 - tags: current story_time
   title: Lead DevOps Engineer
   location: Remote
@@ -152,14 +168,14 @@ experience:
     and ended up building POCs for Zabbix and Zenoss. Unfortunately, this was during
     a turbulent time for our company, so the monitoring projects were abandoned as
     well.
-  - Telecommuting was excellent! This was my first 100% remote position.
-    Initially it was amazing to be able to focus on a project with almost no interruptions
-    for hours at a time. As I got more popular, and started working with more teams,
-    meetings began to chip away at the large blocks of contiguous time. With frequent
-    video conferencing and screen sharing, I was able to effectively work with my
-    team across town, across the country, and globally. I even trained three new U.S.
-    colleagues as well as two in Chennai, India. That being said, I am a social person,
-    so I'm leaning slightly towards an office-based position for my next job.
+  - Telecommuting was excellent! This was my first 100% remote position. Initially
+    it was amazing to be able to focus on a project with almost no interruptions for
+    hours at a time. As I got more popular, and started working with more teams, meetings
+    began to chip away at the large blocks of contiguous time. With frequent video
+    conferencing and screen sharing, I was able to effectively work with my team across
+    town, across the country, and globally. I even trained three new U.S. colleagues
+    as well as two in Chennai, India. That being said, I am a social person, so I'm
+    leaning slightly towards an office-based position for my next job.
   reason_for_leaving: Management did not prioritize maintenance, so tech debt just
     kept getting worse. Never got to attend training or conferences. Switched teams
     too many times, which was particularly difficult as a remote employee.
