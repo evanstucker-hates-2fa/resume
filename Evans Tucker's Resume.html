@@ -98,7 +98,27 @@
 <div class="headline">Biography</div>
 <span>I'm a seasoned DevSecOps engineer with 19 years of experience building secure, resilient infrastructure. It feels like I've done everything: racking and cabling servers, migrating to VMs, database administration, configuration management, migrating again to cloud, CI/CD pipelines, observability, and now containerization. I love Kubernetes, Linux, free open source software, and decentralization. When I'm not leading a high-performing cross-functional team of computer nerds to victory, I enjoy watching questionable memes with my family, sailing, and exploring.</span>
     <div class="headline">Experience</div>
-<div class="left">Lead DevOps Engineer at <a href="https://www.consensys.net/">ConsenSys Software Inc.</a> (Remote)</div>
+<div class="left">Staff Software Development Engineer, Infrastructure at <a href="https://platformscience.com/">Platform Science, Inc.</a> (San Diego, CA)</div>
+<div class="right">2023-04-24 to Present<span class="years" data-start-date="2023-04-24" data-end-date=""></span></div>
+<div class="clear">
+      <p>Wrote Architectural Decision Records (ADRs) regarding database standards and deployment, and contributed to ADRs on Helm standards and resource tagging.</p>
+      <p>Authored Terraform modules for deploying AWS RDS databases according to our standards.</p>
+      <p>Upgraded AWS RDS databases from MySQL 5.7 to 8.0, Aiven Timescale (PostgreSQL) databases from 11 to 12, and deployed databases for several new applications.</p>
+      <p>Translated Rancher to Helm with some advanced yq scripting, then migrated applications for dozens of nationwide trucking fleets to our new AWS EKS clusters.</p>
+      <p>Created a runbook for on-call engineers with various commands for troubleshooting Kubernetes, and onboarded several engineers to the wonderful world of container orchestration!</p>
+      <p>Implemented AWS VPC CNI to increase the pods per node for our Kubernetes clusters, which allowed us to significantly scale down the number of nodes, and saved the company some ungodly amount of money!</p>
+      <p>Started to level up my Prompt Engineering skills, and made ChatGPT write some Python scripts for me.</p>
+    </div>
+<div class="left">Volunteer at <a href="https://equal.vote/">Equal Vote Coalition</a> (Remote)</div>
+<div class="right">2016-11-01 to Present<span class="years" data-start-date="2016-11-01" data-end-date=""></span></div>
+<div class="clear">
+      <p>Designed and built the Azure Kubernetes infrastructure for the soon-to-be-released [STAR Voting](https://starvoting.org/) 2.0 web app.</p>
+      <p>Deployed PostgreSQL databases and Keycloak for the web app.</p>
+      <p>Created GitHub Actions pipelines for web app and terraform repositories.</p>
+      <p>Supported the [Voting-Theory Forum](https://votingtheory.org/) running on a Linux VPS in Linode.</p>
+      <p>Attended rallies, meetings, and other events to try to spread the word about STAR voting!</p>
+    </div>
+<div class="left">Lead DevOps Engineer at <a href="https://consensys.net/">ConsenSys Software Inc.</a> (Remote)</div>
 <div class="right">2018-04-18 to 2023-02-17<span class="years" data-start-date="2018-04-18" data-end-date="2023-02-17"></span></div>
 <div class="clear">
       <p>For the last five years, I've been building, securing, and maintaining Kubernetes clusters and CI/CD pipelines. I've deployed Kubernetes to bare metal, AWS EKS, and Azure AKS with a variety of tools including: kubeadm, kubespray, kops, eksctl, Rancher RKE, and Terraform. Services were deployed to the cluster via Helm with tools like Helmfile, Skaffold, Kustomize, and Flux.</p>
@@ -109,12 +129,12 @@
       <p>In 2022 and early 2023, I supported MetaMask's Buy (fiat onramp), Portfolio, Bridge, and Staking products. During this time, we also started working towards SOC2 compliance, which meant we were consolidating and documenting our processes, auditing access, and migrating all infra to AWS SSO, Okta, and Pomerium.</p>
       <p>Throughout my tenure, I've deployed many databases including: Redis, ElastiCache, PostgreSQL, RDS, Prometheus (inc. Alertmanager and Grafana), Elastic Stack (Elasticsearch, Filebeat, Kibana, and APM), MongoDB, MySQL/MariaDB, TimescaleDB, and Cassandra. Also Ethereum blockchain nodes Geth, Hyperledger Besu, Teku, Parity, and Truffle Suite's Ganache. And finally, bitcoind and IPFS. I also deployed artifact repositories: Chartmuseum, Harbor, Sonatype Nexus, and Verdaccio.</p>
     </div>
-<div class="left">Site Reliability Engineer at <a href="https://www.iovation.com/">iovation Inc.</a> (Portland, OR)</div>
+<div class="left">Site Reliability Engineer at <a href="https://iovation.com/">iovation Inc.</a> (Portland, OR)</div>
 <div class="right">2017-11-13 to 2018-03-09<span class="years" data-start-date="2017-11-13" data-end-date="2018-03-09"></span></div>
 <div class="clear">
       <p>My team was working on GDPR and SOC 2 compliance, where my role was to automate the OS upgrade process for our Puppet, Sensu, Elasticsearch, and Jenkins hosts. Most notably, I wrote some scripts to control the flow of data into our Elasticsearch cluster, and perform a rolling upgrade. I also began deduplicating our collection of around forty separate copy/pasted upgrade scripts. I created a POC for a unified, generic upgrade process that would work with all of our hosts.</p>
     </div>
-<div class="left">Senior Member of Technical Staff at <a href="http://www.athenahealth.com/">athenahealth, Inc.</a> (Remote)</div>
+<div class="left">Senior Member of Technical Staff at <a href="http://athenahealth.com/">athenahealth, Inc.</a> (Remote)</div>
 <div class="right">2015-08-31 to 2017-11-06<span class="years" data-start-date="2015-08-31" data-end-date="2017-11-06"></span></div>
 <div class="clear">
       <p>For most of 2016, I was part of a small team that was creating a new platform in AWS. I built custom CentOS 7 and Oracle Linux 7 images using Packer, then we used SparkleFormation (an infrastructure as code (IaC) Ruby DSL that builds CloudFormation templates) to build ELBs, ASGs, and other BS. We set up GitLab to house all of the code, and used Puppet 4 with agent certificate extensions to manage our configuration.</p>
@@ -122,7 +142,7 @@
       <p>Researching and building proofs of concept (POCs) was one of the most challenging aspects of my job. Before the AWS project began, I was tasked with creating a POC for a new build and life cycle management process using Red Hat Satellite (which is essentially Foreman and Katello). Satellite was fairly complex, and, due to it's rigid nature, it didn't work well for our environments, so that project was scrapped. I also researched several monitoring solutions, recommended Sensu, and ended up building POCs for Zabbix and Zenoss. Unfortunately, this was during a turbulent time for our company, so the monitoring projects were abandoned as well.</p>
       <p>Telecommuting was excellent! This was my first 100% remote position. Initially it was amazing to be able to focus on a project with almost no interruptions for hours at a time. As I got more popular, and started working with more teams, meetings began to chip away at the large blocks of contiguous time. With frequent video conferencing and screen sharing, I was able to effectively work with my team across town, across the country, and globally. I even trained three new U.S. colleagues as well as two in Chennai, India. That being said, I am a social person, so I'm leaning slightly towards an office-based position for my next job.</p>
     </div>
-<div class="left">Systems Administrator at <a href="http://www.indeed.com/">Indeed, Inc.</a> (Austin, TX)</div>
+<div class="left">Systems Administrator at <a href="http://indeed.com/">Indeed, Inc.</a> (Austin, TX)</div>
 <div class="right">2013-11-25 to 2015-05-21<span class="years" data-start-date="2013-11-25" data-end-date="2015-05-21"></span></div>
 <div class="clear">
       <p>As a member of the Operations team, I supported around 1,200 CentOS 6 servers in 10 data centers around the world. I worked with RackSpace, SoftLayer, AWS, as well as in a local data center in Austin, where the bulk of our servers resided.</p>
@@ -132,7 +152,7 @@
       <p>I have a T-shirt that says, "Let me drop everything and work on your problem." It's supposed to be sarcastic, but I interpreted it literally instead. I officially supported several teams of developers at Indeed; I attended our weekly meetings, collaborated with them to solve problems, etc. But, due to the fact that I was usually the first ops person to show up in the morning, I unofficially supported everybody - I often dropped everything to work on their problems until the rest of my team arrived.</p>
       <p>When there were no fires to put out, I would switch roles to Data Janitor or Technical Debt Collector. I did a lot of code maintenance and auditing in what little free time I had. Notable projects were: using a script to find and reclaim unused LVs to free up space on our SAN; simplifying, compacting, refactoring, or just deleting old code, scripts, and documentation; and programmatically auditing our missing or wrong DNS PTR records.</p>
     </div>
-<div class="left">Senior Staff - Technical Support at <a href="http://www.schwab.com/">Charles Schwab &amp; Co., Inc.</a> (Austin, TX)</div>
+<div class="left">Senior Staff - Technical Support at <a href="http://schwab.com/">Charles Schwab &amp; Co., Inc.</a> (Austin, TX)</div>
 <div class="right">2010-03-15 to 2013-04-02<span class="years" data-start-date="2010-03-15" data-end-date="2013-04-02"></span></div>
 <div class="clear">
       <ul>
@@ -144,7 +164,7 @@
       <li>Monitored Linux, VMware vSphere, Windows, Solaris, and AIX services and hardware using Managed Objects v4, and worked with the Distributed Network and Automation team to reduce excessive alerting.</li>
       </ul>
     </div>
-<div class="left">System Administrator at <a href="http://www.renewdata.com/">Renew Data Corp.</a> (Austin, TX)</div>
+<div class="left">System Administrator at <a href="http://renewdata.com/">Renew Data Corp.</a> (Austin, TX)</div>
 <div class="right">2009-10-15 to 2010-03-11<span class="years" data-start-date="2009-10-15" data-end-date="2010-03-11"></span></div>
 <div class="clear">
       <ul>
@@ -156,7 +176,7 @@
       <li>Audited and reconfigured the Aastra NeXspan L phone system.</li>
       </ul>
     </div>
-<div class="left">Network Administrator II at <a href="http://www.engauge.com/">Engauge Marketing, LLC.</a> (Austin, TX)</div>
+<div class="left">Network Administrator II at <a href="http://engauge.com/">Engauge Marketing, LLC.</a> (Austin, TX)</div>
 <div class="right">2007-11-01 to 2009-09-15<span class="years" data-start-date="2007-11-01" data-end-date="2009-09-15"></span></div>
 <div class="clear">
       <ul>
@@ -173,7 +193,7 @@
       <li>Researched and created a disaster recovery plan.</li>
       </ul>
     </div>
-<div class="left">Network Administrator at <a href="http://www.winternals.com/">Winternals Software LP</a> (Austin, TX)</div>
+<div class="left">Network Administrator at <a href="http://winternals.com/">Winternals Software LP</a> (Austin, TX)</div>
 <div class="right">2004-01-30 to 2007-03-30<span class="years" data-start-date="2004-01-30" data-end-date="2007-03-30"></span></div>
 <div class="clear">
       <ul>
@@ -190,7 +210,7 @@
       </ul>
     </div>
     <div class="headline">Education</div>
-<div class="left"><a href="http://www.waco.tstc.edu/">Texas State Technical College</a></div>
+<div class="left"><a href="http://tstc.edu/">Texas State Technical College</a></div>
 <div class="right">Associate of Applied Science in Computer Science Technology</div>
 <div class="clear">
   <ul>
