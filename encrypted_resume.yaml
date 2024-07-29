@@ -13,6 +13,23 @@ biography: 'I''m a seasoned DevSecOps engineer with 19 years of experience build
 experience:
 - tags: current story_time
   title: Staff Infrastructure Engineer
+  location:
+  company: Proof Singularity Technologies Inc. (AKA Nebra)
+  address:
+  city:
+  state:
+  zip_code:
+  phone:
+  url: https://nebra.one/
+  supervisor: Duncan Tebbs
+  start_date: 2024-07-29
+  end_date:
+  starting_compensation: LSeex1EGdShzrsqT1Qc+IA==
+  ending_compensation:
+  description:
+  -
+- tags: current story_time
+  title: Staff Infrastructure Engineer
   location: San Diego, CA
   company: Platform Science, Inc.
   address: '9560 Towne Centre Dr #200'
