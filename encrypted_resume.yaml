@@ -13,13 +13,13 @@ biography: 'I''m a seasoned DevSecOps engineer with 20 years of experience build
 experience:
 - tags: current story_time
   title: Staff Infrastructure Engineer
-  location:
-  company: Proof Singularity Technologies Inc. (AKA Nebra)
+  location: Remote
+  company: Proof Singularity Technologies Inc. AKA Nebra
   address: 26 Broadway
   city: Brooklyn
   state: New York
   zip_code: 11249
-  phone:
+  phone: "+1 206-422-8431"
   url: https://nebra.one/
   supervisor: Duncan Tebbs
   start_date: 2024-07-29
@@ -45,7 +45,7 @@ experience:
   city: San Diego
   state: California
   zip_code: '92121'
-  phone:
+  phone: "+1 844-475-8724"
   url: https://platformscience.com/
   supervisor: Michael McCann
   start_date: 2023-04-24
@@ -68,30 +68,6 @@ experience:
     company some ungodly amount of money!
   - Started to level up my Prompt Engineering skills, and made ChatGPT write some
     Python scripts for me.
-- tags: current story_time
-  title: Volunteer
-  location: Remote
-  company: Equal Vote Coalition
-  address: 544 Blair Blvd
-  city: Eugene
-  state: Oregon
-  zip_code: '97402'
-  phone: 971-222-9364
-  url: https://equal.vote/
-  supervisor: Mike Franze
-  start_date: 2016-11-01
-  end_date:
-  starting_compensation:
-  ending_compensation:
-  description:
-  - Designed and built the Azure Kubernetes infrastructure for the soon-to-be-released
-    [STAR Voting](https://starvoting.org/) 2.0 web app.
-  - Deployed PostgreSQL databases and Keycloak for the web app.
-  - Created GitHub Actions pipelines for web app and terraform repositories.
-  - Supported the [Voting-Theory Forum](https://votingtheory.org/) running on a Linux
-    VPS in Linode.
-  - Attended rallies, meetings, and other events to try to spread the word about STAR
-    voting!
 - tags: story_time just_kidding
   title: Lead DevSecOops Engineer
   location: IN DEN WOLKEN!
@@ -122,7 +98,7 @@ experience:
   state: New York
   zip_code: '11206'
   phone: "+1 646-598-6376"
-  url: https://consensys.net/
+  url: https://consensys.io/
   supervisor: Griffin Anderson, Patrick Berarducci, Lex Sokolin, Didier Le Floch,
     Bogdan Suvar
   start_date: 2018-04-18
@@ -197,6 +173,30 @@ experience:
     drjlRJaeX+tnR/Xjr7IYcU8cLwLOy3uEC4EwUJt501odHCXW2ao91Z/xP67F
     Iq/m5le/0P7rhNrQV+BKmbLL
 - tags: current story_time
+  title: Volunteer
+  location: Remote
+  company: Equal Vote Coalition
+  address: 544 Blair Blvd
+  city: Eugene
+  state: Oregon
+  zip_code: '97402'
+  phone: "+1 971-222-9364"
+  url: https://equal.vote/
+  supervisor: Mike Franze
+  start_date: 2016-11-01
+  end_date:
+  starting_compensation:
+  ending_compensation:
+  description:
+  - Designed and built the Azure Kubernetes infrastructure for the soon-to-be-released
+    <a href="https://bettervoting.com/">BetterVoting open beta</a> web app.
+  - Deployed PostgreSQL databases and Keycloak.
+  - Created GitHub Actions pipelines for web app and terraform repositories.
+  - Supported the <a href="https://votingtheory.org/">Voting-Theory Forum</a> running
+    on a Linux VPS in Linode.
+  - Attended rallies, meetings, and other events to try to spread the word about STAR
+    voting!
+- tags: current story_time
   title: Senior Member of Technical Staff
   location: Remote
   company: athenahealth, Inc.
@@ -205,7 +205,7 @@ experience:
   state: Massachusetts
   zip_code: '02472'
   phone: "+1 800-981-5084"
-  url: http://athenahealth.com/
+  url: https://athenahealth.com/
   supervisor: Cameron King
   start_date: '2015-08-31'
   end_date: '2017-11-06'
@@ -261,7 +261,7 @@ experience:
   state: Texas
   zip_code: '78731'
   phone:
-  url: http://indeed.com/
+  url: https://indeed.com/
   supervisor: Jason Koppe
   start_date: '2013-11-25'
   end_date: '2015-05-21'
@@ -313,7 +313,7 @@ experience:
   state: Texas
   zip_code: '78727'
   phone: "+1 512-372-8397"
-  url: http://schwab.com/
+  url: https://schwab.com/
   supervisor: Irby Gaudet
   start_date: '2010-03-15'
   end_date: '2013-04-02'
@@ -346,7 +346,7 @@ experience:
   state: Texas
   zip_code: '78759'
   phone: "+1 888-811-3789"
-  url: http://renewdata.com/
+  url: https://renewdata.com/
   supervisor: Tony Colon
   start_date: '2009-10-15'
   end_date: '2010-03-11'
@@ -375,7 +375,7 @@ experience:
   state: Texas
   zip_code: '78758'
   phone: "+1 512-220-7414"
-  url: http://engauge.com/
+  url: https://engauge.com/
   supervisor: Bob Elmer
   start_date: '2007-11-01'
   end_date: '2009-09-15'
@@ -420,7 +420,7 @@ experience:
   state: Texas
   zip_code: '78746'
   phone: "+1 512-330-9130"
-  url: http://winternals.com/
+  url: https://winternals.com/
   supervisor: Matthew Bryce
   start_date: '2004-01-30'
   end_date: '2007-03-30'
@@ -482,7 +482,7 @@ experience:
   state: Texas
   zip_code: '78682'
   phone: "+1 512-723-9134"
-  url: http://dell.com/
+  url: https://dell.com/
   supervisor: Tony Bass
   start_date: '2002-07-15'
   end_date: '2003-07-17'
@@ -506,7 +506,7 @@ experience:
   state: Texas
   zip_code: '77802'
   phone: "+1 979-774-2700"
-  url: http://decisionone.com/
+  url: https://decisionone.com/
   supervisor: Noel Templeton
   start_date: '2001-10-08'
   end_date: '2002-03-08'
@@ -548,7 +548,7 @@ experience:
   state: Wisconsin
   zip_code: '53718'
   phone: "+1 608-241-5100"
-  url: http://exactacorp.com/
+  url: https://exactacorp.com/
   supervisor: Hank
   start_date: '2000-01-16'
   end_date: '2001-03-31'
@@ -574,7 +574,7 @@ experience:
   state: Texas
   zip_code: '78205'
   phone: "+1 210-357-9200"
-  url: http://texas.net/
+  url: https://texas.net/
   supervisor: Tim Yaeger
   start_date: '1999-09-10'
   end_date: '2000-01-20'
@@ -595,7 +595,7 @@ experience:
   state: Texas
   zip_code: '78238'
   phone: "+1 210-647-0125"
-  url: http://askacs.com/
+  url: https://askacs.com/
   supervisor: Jeff Chamberlain
   start_date: '1999-07-06'
   end_date: '1999-08-30'
@@ -624,7 +624,7 @@ experience:
   state: Texas
   zip_code: '76705'
   phone: "+1 800-792-8784"
-  url: http://tstc.edu/
+  url: https://tstc.edu/
   supervisor: Susan Meyers
   start_date: '1997'
   end_date: '1998'
@@ -646,7 +646,7 @@ experience:
   state: Texas
   zip_code: '77840'
   phone: "+1 979-764-8602"
-  url: http://subway.com/
+  url: https://subway.com/
   supervisor: Belinda
   start_date: '1997-07-15'
   end_date: '1997-10-15'
@@ -667,7 +667,7 @@ experience:
   state: Texas
   zip_code: '76710'
   phone: "+1 254-776-3302"
-  url: http://expresspersonnel.com/
+  url: https://expresspersonnel.com/
   supervisor:
   start_date: '1996-11-01'
   end_date: '1996-11-30'
@@ -710,7 +710,7 @@ experience:
   state: Texas
   zip_code: '77802'
   phone: "+1 979-846-4972"
-  url: http://subway.com/
+  url: https://subway.com/
   supervisor: Candy
   start_date: '1996-02-15'
   end_date: '1996-08-31'
@@ -728,7 +728,7 @@ experience:
   state: Texas
   zip_code: '77802'
   phone: "+1 979-822-3011"
-  url: http://mcdonalds.com/
+  url: https://mcdonalds.com/
   supervisor: Sherry
   start_date: '1994-05-01'
   end_date: '1995-02-28'
@@ -751,7 +751,7 @@ certifications:
 - name: Red Hat Certified Engineer (RHCE, expired)
   url: https://www.redhat.com/wapps/training/certification/verify.html?certNumber=111-163-366&isSearch=False&verify=Verify
 - name: HE.NET IPv6 Certified
-  url: http://ipv6.he.net/certification/scoresheet.php?pass_name=evanstucker
+  url: https://ipv6.he.net/certification/scoresheet.php?pass_name=evanstucker
 education:
 - tags: college
   name: Texas State Technical College
@@ -760,7 +760,7 @@ education:
   state: Texas
   zip_code: '76705'
   phone: "+1 800-792-8784"
-  url: http://tstc.edu/
+  url: https://tstc.edu/
   degree: Associate of Applied Science
   major: Computer Science Technology
   start_date: '1996-09-05'
@@ -775,7 +775,7 @@ education:
   state: Texas
   zip_code: '77843'
   phone: "+1 979-845-1003"
-  url: http://tamu.edu/
+  url: https://tamu.edu/
   degree: Incomplete
   major: Computer Science
   start_date: '1996'
@@ -790,7 +790,7 @@ education:
   state: Texas
   zip_code: '77802'
   phone: "+1 979-731-7855"
-  url: http://www.bryanisd.org/school.asp?schoolID=9
+  url: https://www.bryanisd.org/school.asp?schoolID=9
   degree: High School Diploma
   major:
   start_date: '1995'
@@ -807,7 +807,7 @@ education:
   state: Texas
   zip_code: '77802'
   phone: "+1 979-731-7400"
-  url: http://www.ci.bryanisd.org/bryanhs/
+  url: https://www.ci.bryanisd.org/bryanhs/
   degree: Incomplete
   major:
   start_date: '1991'

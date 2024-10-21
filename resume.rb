@@ -124,11 +124,14 @@ output << <<~END
 output << "    <div class=\"headline\">Experience</div>\n"
 resume['experience'].each do |job|
   if job['tags'].to_s.include? 'current'
-    if job['tags'].to_s.include? 'story_time'
-      description_entity = 'p'
-    else
+
+    # Disabling story_time (paragraph instead of bullet points), because I want my resume to look a little more consistent.
+    # if job['tags'].to_s.include? 'story_time'
+    #   description_entity = 'p'
+    # else
       description_entity = 'li'
-    end
+    # end
+
     if job['end_date'].nil?
       duration = "#{job['start_date']} to Present"
     else
