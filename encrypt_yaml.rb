@@ -32,16 +32,17 @@ resume = YAML.load_file(
 )
 
 resume['experience'].each do |job|
-  # starting_compensation
   unless job['starting_compensation'].nil?
     encrypted_base64 = encrypt(job['starting_compensation'])
     job['starting_compensation'] = encrypted_base64
   end
-
-  # ending_compensation
   unless job['ending_compensation'].nil?
     encrypted_base64 = encrypt(job['ending_compensation'])
     job['ending_compensation'] = encrypted_base64
+  end
+  unless job['reason_for_leaving'].nil?
+    encrypted_base64 = encrypt(job['reason_for_leaving'])
+    job['reason_for_leaving'] = encrypted_base64
   end
 end
 

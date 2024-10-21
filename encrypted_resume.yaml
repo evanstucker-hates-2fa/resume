@@ -3,13 +3,13 @@ contact:
   name: Evans Tucker
   phone: "+1 971-336-3223"
   email: gmail@evanstucker.com
-biography: 'I''m a seasoned DevSecOps engineer with 19 years of experience building
+biography: 'I''m a seasoned DevSecOps engineer with 20 years of experience building
   secure, resilient infrastructure. It feels like I''ve done everything: racking and
   cabling servers, migrating to VMs, database administration, configuration management,
   migrating again to cloud, CI/CD pipelines, observability, and now containerization.
   I love Kubernetes, Linux, free open source software, and decentralization. When
   I''m not leading a high-performing cross-functional team of computer nerds to victory,
-  I enjoy watching questionable memes with my family, sailing, and exploring.'
+  I enjoy sailing, exploring, and watching questionable memes with my family.'
 experience:
 - tags: current story_time
   title: Staff Infrastructure Engineer
@@ -23,11 +23,20 @@ experience:
   url: https://nebra.one/
   supervisor: Duncan Tebbs
   start_date: 2024-07-29
-  end_date:
+  end_date: 2024-10-20
   starting_compensation: LSeex1EGdShzrsqT1Qc+IA==
-  ending_compensation:
+  ending_compensation: LSeex1EGdShzrsqT1Qc+IA==
   description:
-  -
+  - Built new dev and prod Kubernetes clusters based on Terraform EKS blueprints.
+  - Migrated several services to the new clusters.
+  - Wrote a GitOps repo to control application deployment with Helmfile and SOPS.
+  - Deployed CloudNativePG PostgreSQL databases to the clusters and migrated data
+    to them.
+  reason_for_leaving: |-
+    4Sa+3h2y4hZBOwAmw6a9A2CJnzYpnimcOsbNnIxwyQOGYeCrZyuarg9BDI1e
+    BpqUVzHOGry9qqodYMJQ36vZitRLUA6LLd5++tFhEGBP29RqTOG5hor5ZeFx
+    5npuObiZjdU0t0MCadxvkWPhJABpOVEWXhGd1dBOxqpf+rq2MBFhALTiaEMf
+    4DO5CivLx/c4MA1yUv01ZVSsqN+JJI3UWXG2LAZdXEeICqVmb+iDatQ=
 - tags: current story_time
   title: Staff Infrastructure Engineer
   location: San Diego, CA
@@ -154,8 +163,9 @@ experience:
     Also Ethereum blockchain nodes Geth, Hyperledger Besu, Teku, Parity, and Truffle
     Suite''s Ganache. And finally, bitcoind and IPFS. I also deployed artifact repositories:
     Chartmuseum, Harbor, Sonatype Nexus, and Verdaccio.'
-  reason_for_leaving: Frustration, isolation, and burnout... I decided to give myself
-    a sabbatical.
+  reason_for_leaving: |-
+    FRxur703e/yH21uw/mxOWvIgPYV8uR2AR1EJbZ8x4zVQc6mLRk5khBCOsufe
+    DTRBzIMET720K9wtusbPu9aNgRghaMb1CqQpuEObxTGuUuw=
 - tags: current story_time
   title: Site Reliability Engineer
   location: Portland, OR
@@ -178,10 +188,14 @@ experience:
     cluster, and perform a rolling upgrade. I also began deduplicating our collection
     of around forty separate copy/pasted upgrade scripts. I created a POC for a unified,
     generic upgrade process that would work with all of our hosts.
-  reason_for_leaving: Philosophical differences with tenured coworkers. They wanted
-    me to maintain 40 slightly different copies of a script, and I wanted to pull
-    out common sections into modules and deduplicate the code. I was formally reprimanded
-    for creating a PR to do this work. I resigned.
+  reason_for_leaving: |-
+    LtiIGEthnRtN+lFoV3BYZ6hsr5peSH0sWzBdTi65RXTcIE15w6ULh/MXkUa+
+    Vwe4dPAKhe3BEtKOm6KuEvSJdnud2YSA6o80M4Gkfu1ASUO93sLU9xqOsxVK
+    FfmRvOFZoBO2MpHddCL0Y1ZpiU44r6F6d/cspM35P69OfruFHs/UhubvexBx
+    vmyXleUKMvCENU3PGRl1M5pJAE4XAwrLePOm52FcFxAxrF/D+R+i5GMLe04l
+    oRiTZuhTF8tfVtVKs59ZwtXmdym6c6CyiTsyYaqMpFXtIsZ6WRrKG65c3ML5
+    drjlRJaeX+tnR/Xjr7IYcU8cLwLOy3uEC4EwUJt501odHCXW2ao91Z/xP67F
+    Iq/m5le/0P7rhNrQV+BKmbLL
 - tags: current story_time
   title: Senior Member of Technical Staff
   location: Remote
@@ -232,9 +246,12 @@ experience:
     town, across the country, and globally. I even trained three new U.S. colleagues
     as well as two in Chennai, India. That being said, I am a social person, so I'm
     leaning slightly towards an office-based position for my next job.
-  reason_for_leaving: Management did not prioritize maintenance, so tech debt just
-    kept getting worse. Never got to attend training or conferences. Switched teams
-    too many times, which was particularly difficult as a remote employee.
+  reason_for_leaving: |-
+    sD/888YfjYg7cgxR6xvtdpskrRBgxnbuT3wSF67Jrxm8WARmRbD2h9AUt9Z3
+    /tRmz9/YKoRdjwEfaNDl34Bd7gSeJfOhmKq7NhXUK/qw+OKPd8KPPGrDiQat
+    4ZMWdwg/W9Gjq7bfd32aGP8mRFruDrhk/A46LSrMBqCPjZixYwbWSRI94dgg
+    ArdoYDW/7bo4v5Jh53C3PzG2XsvlIyGKSzlx99sshDDb8OwwT9A0oHn6iDu7
+    3sHVg6RRExrSdfYeAP4zcex+l4rerZbzDZ0MxXbL/0QWdSC/mcsxszdLHEM=
 - tags: current story_time
   title: Systems Administrator
   location: Austin, TX
@@ -283,8 +300,10 @@ experience:
     unused LVs to free up space on our SAN; simplifying, compacting, refactoring,
     or just deleting old code, scripts, and documentation; and programmatically auditing
     our missing or wrong DNS PTR records.'
-  reason_for_leaving: Moved to Portland, Oregon. Tried to negotiate working remotely,
-    but was unable to come to a mutually beneficial agreement.
+  reason_for_leaving: |-
+    cpmNbEcdN7dOp9NtVhsLOZv7BH/pYCOaf5YT0p92WB9JOy8ltANNQq7Iqr54
+    T5OJbho+bo/Pd2hz4XeU1zUQYVyZ2jq21sr44eMDM3gL49wvRsL0rX2rh6IG
+    lNRYFlkZpWXsrjFWG8kDtrqMqlvHxP7ZGTc2wKVJRspuAyZeouc=
 - tags: current
   title: Senior Staff - Technical Support
   location: Austin, TX
@@ -315,7 +334,9 @@ experience:
   - Monitored Linux, VMware vSphere, Windows, Solaris, and AIX services and hardware
     using Managed Objects v4, and worked with the Distributed Network and Automation
     team to reduce excessive alerting.
-  reason_for_leaving: I wanted to change industries and do more technical work.
+  reason_for_leaving: |-
+    AV0tuWO60pbjOGCb7soDVWX23OGEkp5tk9dfvshMg/f3NZf7tqDDl+WhuipZ
+    VHo5pFdsI/WxEGJzZI3GeUlVqA==
 - tags: current
   title: System Administrator
   location: Austin, TX
@@ -342,7 +363,9 @@ experience:
   - Supported and assigned RSA SecurID software tokens in conjunction with F5 Networks
     FirePass appliance.
   - Audited and reconfigured the Aastra NeXspan L phone system.
-  reason_for_leaving: Renew reneged on their promise to hire me at the end of my contract.
+  reason_for_leaving: |-
+    m7shfCE8+o4XRnB9F0iLcWmcB0RgoFtfuTB5rNovVpEKMn+ClaRPzJHUCB0W
+    47dEVXKjv3lZSGCcQ5DxY25J+I2/4kZjADkSrL8ExZ/zwY4=
 - tags: current
   title: Network Administrator II
   location: Austin, TX
@@ -382,9 +405,12 @@ experience:
     etc.) and created spreadsheets for auditing the process of setting up new users,
     workstations, and servers as well as decommissioning them.
   - Researched and created a disaster recovery plan.
-  reason_for_leaving: I received no raises, no budget for my department, and no hope
-    for improvement for two years, so I trained my remote couterpart, and offered
-    to work as needed on an hourly basis before resigning.
+  reason_for_leaving: |-
+    bMr/n1bBeK+M5vq4gT0lk9Md9o7w5MnfYcPNWT+mKopfCIliGLzns9R6WXIu
+    uycpRNZE8JmzOv5hHL1nO3mwshOUGtnitfxzKKdxwdnMZz8Jck1ZBG2X4Ax9
+    XEi1m132lSHKnUbrBzY4I6t8vypx3S0MXop6er866CBHHd/hd81sBx/q1e+V
+    0DvlCtf1QRBRCuB9mkj1O1Hyt0mZJVduLMyln7wu9EJfhySLu8ra8QXDbdhR
+    VG4ioTYf3WERcIrOIu0jjNVHHB4bQOoZLXCviw==
 - tags: current
   title: Network Administrator
   location: Austin, TX
@@ -421,7 +447,9 @@ experience:
     system.
   - Developed and implemented disaster recovery procedures.
   - Responded to system alerts 24 hours a day, 7 days a week.
-  reason_for_leaving: Winternals was acquired by Microsoft.
+  reason_for_leaving: |-
+    4Ji6bMZcsRWBsr2/l+POHxCatx3lFek5DKFH+T3FIJzZfJZQVdLWBthGCJB8
+    yE7P
 - tags:
   title: Assistant Catastrophe Adjuster
   location: Norfolk, VA
@@ -444,7 +472,7 @@ experience:
     damage.
   - Sketched roof, siding, and interior diagrams and measured damaged areas.
   - Performed the various office duties needed to close the policy holders' files.
-  reason_for_leaving: Position was temporary.
+  reason_for_leaving: OpgCbWW2MmahWlkqiDplDmjJy+48MNjzKJksG8+qMTg=
 - tags:
   title: CSD Network Tech/Specialist
   location: Round Rock, TX
@@ -465,8 +493,10 @@ experience:
   - Provided operating system and driver support for all versions of Windows and Red
     Hat Linux.
   - Administered Dell's internal Precision Workstation website.
-  reason_for_leaving: Dell offered me another, better phone support position, but
-    I didn't want to be on the phones anymore.
+  reason_for_leaving: |-
+    cqSXRoWW16o+b6aHty/fZpQzDJ9J46NIUchHlqkP4nyMgBUOpgN7dykYP9MK
+    Y/TnFVPOMRFDRmI8mXqKT91zggH8pgihNB0kr6IvkwXsaoVg3kl9E92GB9qm
+    U+u0OgFnaMHg9/yYYqKtYZnQLg9MZw==
 - tags:
   title: Technical Support
   location: Bryan, TX
@@ -486,7 +516,7 @@ experience:
   - Provided tech support for QuixNet dial-up connections.
   - Provided tech support for Covad DSL and T1 lines.
   - Performed customer service duties for both of the companies above.
-  reason_for_leaving: Moved to Dallas.
+  reason_for_leaving: BAnrDPx8p3/KPsIEdCX2iVdJkRpyQQxRljszA0XWSI8=
 - tags:
   title: Assistant Catastrophe Adjuster
   location: Omaha, NE
@@ -508,7 +538,7 @@ experience:
   - Inspected roofs, siding, and personal possessions for hail damage.
   - Sketched roof and siding diagrams and measure damaged areas.
   - Performed the various office duties needed to close the policy holders' files.
-  reason_for_leaving: Position was temporary.
+  reason_for_leaving: OpgCbWW2MmahWlkqiDplDmjJy+48MNjzKJksG8+qMTg=
 - tags:
   title: Consultant
   location: Madison, WI
@@ -534,7 +564,7 @@ experience:
   - Ported the problem reporting system to ASP/VBScript for the American Transmission
     Company.
   - Performed various troubleshooting tasks on the SOC's LAN.
-  reason_for_leaving: Moved back to Texas.
+  reason_for_leaving: sclaHBfyxOIawDz788LBn/FSE804xEMrUWXxvXYVbtY=
 - tags:
   title: Technical Support
   location: San Antonio, TX
@@ -553,7 +583,9 @@ experience:
   description:
   - Provided phone and e-mail tech support for dial-up and DSL connections.
   - Provided customer service for business and residential accounts.
-  reason_for_leaving: Obtained a web programming position at Exacta.
+  reason_for_leaving: |-
+    NvO9ZfFT0emXDUpXfzKVrYau/qb+uaNsEznU9QpxB4GSgApxGWJ39O/90lQ5
+    T6Jr
 - tags:
   title: Hardware Technician
   location: San Antonio, TX
@@ -580,7 +612,9 @@ experience:
     a PC with about thirty things wrong with it and said, "fix it". There were jumpers
     in the wrong position, partially inserted cards, cables plugged in backwards,
     bent pins, etc. I got it working pretty quickly and he hired me on the spot.
-  reason_for_leaving: Found a better position at Texas.Net.
+  reason_for_leaving: |-
+    UPFgLeuaaZfnEv3bHtNv43HqiEY7Me7piE2CQVGomHcxIwOahw8vGDcNgley
+    qa4y
 - tags:
   title: Technical Support Volunteer
   location: Waco, TX
@@ -602,7 +636,7 @@ experience:
   - Designed TSTC's Quake II website and maintained the Quake II server.
   - Provided phone tech support for TSTC's online services.
   - Administered several web and file servers.
-  reason_for_leaving: Wanted to take more classes.
+  reason_for_leaving: qIdslgCG54VmKYECVlczyfSLOOCvLqH+JSeHTe1goxg=
 - tags:
   title: Sandwich Artist
   location: College Station, TX
@@ -623,7 +657,7 @@ experience:
   - Performed cashier duties.
   - Cleaned.
   - Closed the store and completed inventory and safe-deposit paperwork.
-  reason_for_leaving: Went back to college.
+  reason_for_leaving: 0pgLnxDIQ4XgEzXr/P7rUETt60MV3wbn0kEVJ+obgwA=
 - tags:
   title: Express Associate
   location: Waco, TX
@@ -642,7 +676,9 @@ experience:
   description:
   - Performed some simple assembly line work at a medical supplies factory.
   - Engaged in some outdoor manual labor at a sheetrock company.
-  reason_for_leaving: They didn't provide enough jobs.
+  reason_for_leaving: |-
+    LkL7Tx2xLwni3jfFMMpufcQIL8rR8ubg6yHUNfIpsgMI41IJ+0RQg3prcr/x
+    FWqM
 - tags:
   title: Maintenance Crew
   location: Bryan, TX
@@ -662,8 +698,9 @@ experience:
   - Unloaded, unpacked, tagged, and shelved the store's inventory.
   - Vacuumed and mopped the entire department store.
   - Executed astounding janitorial feats on the store's lavatory.
-  reason_for_leaving: Manager yelled at everyone all the time. Level of abuse far
-    exceeded pay.
+  reason_for_leaving: |-
+    hxAmtgWG2/YMwzDzPagkCqUnPA9mh08cvOtuIkXbd8tr/mVMYZ0zGZgbgumM
+    C5vWwCHd7MIPhOhfUPuu7QloV30Mt2dA3+0a7JBaVFbHJuI=
 - tags:
   title: Sandwich Artist
   location: Bryan, TX
@@ -681,7 +718,7 @@ experience:
   ending_compensation: wU/oyXQ8+oNEBdQCA1GQEA==
   description:
   - "(See the Subway entry above.)"
-  reason_for_leaving: Left for college.
+  reason_for_leaving: E9qBt6wkttoUwMytFWS8/zWdTV3N0rRvQ2cODefcCjw=
 - tags:
   title: Customer Service Representative
   location: Bryan, TX
@@ -706,8 +743,10 @@ experience:
   - Emptied grease traps, mopped, and washed dishes.
   - Developed passable marksmanship with sauce guns during the counter staff raids
     into kitchen territory.
-  reason_for_leaving: My first foray into the whole "employement" thing literally
-    left a bad taste in my mouth.
+  reason_for_leaving: |-
+    2tIg40JYhX1hrSz59Lfz6ANIL4GAwG7hSAUAmpH6nRPgb1fr4G3Pl0u3Zozy
+    nwh8Fh7vt08YCxvlzdWBVlIWeGk9D9TYUODMsf8pOIzvo7bjy9Dw6HXHv7zf
+    o2D/OgOE
 certifications:
 - name: Red Hat Certified Engineer (RHCE, expired)
   url: https://www.redhat.com/wapps/training/certification/verify.html?certNumber=111-163-366&isSearch=False&verify=Verify

@@ -27,16 +27,17 @@ resume = YAML.load_file(
 )
 
 resume['experience'].each do |job|
-  # starting_compensation
   unless job['starting_compensation'].nil?
     decrypted = decrypt(job['starting_compensation'])
     job['starting_compensation'] = decrypted
   end
-
-  # ending_compensation
   unless job['ending_compensation'].nil?
     decrypted = decrypt(job['ending_compensation'])
     job['ending_compensation'] = decrypted
+  end
+  unless job['reason_for_leaving'].nil?
+    decrypted = decrypt(job['reason_for_leaving'])
+    job['reason_for_leaving'] = decrypted
   end
 end
 
