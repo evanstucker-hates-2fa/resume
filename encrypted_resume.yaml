@@ -11,6 +11,25 @@ biography: 'I''m a seasoned DevSecOps engineer with 20 years of experience build
   I''m not leading a high-performing cross-functional team of computer nerds to victory,
   I enjoy sailing, exploring, and watching questionable memes with my family.'
 experience:
+- tags: ''
+  title: Co-founder
+  location: Remote
+  company: devops.coop
+  address: ''
+  city: ''
+  state: ''
+  zip_code: ''
+  phone: ''
+  url: https://devops.coop/
+  supervisor: ''
+  start_date: 2024-05-13
+  end_date: ''
+  starting_compensation: 1+ZY2JpQCl8LFl6Wgw1iFg==
+  ending_compensation: 1+ZY2JpQCl8LFl6Wgw1iFg==
+  description:
+  - Wrote re-usable code for deploying secure, compliant Kubernetes clusters to AWS
+    and Azure.
+  reason_for_leaving: 1+ZY2JpQCl8LFl6Wgw1iFg==
 - tags: current story_time
   title: Staff Infrastructure Engineer
   location: Remote
@@ -28,6 +47,8 @@ experience:
   ending_compensation: LSeex1EGdShzrsqT1Qc+IA==
   description:
   - Built new dev and prod Kubernetes clusters based on Terraform EKS blueprints.
+  - Deployed kube-prometheus-stack (including Grafana and Alertmanager), Loki, and
+    Promtail for observability.
   - Migrated several services to the new clusters.
   - Wrote a GitOps repo to control application deployment with Helmfile and SOPS.
   - Deployed CloudNativePG PostgreSQL databases to the clusters and migrated data
