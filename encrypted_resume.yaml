@@ -81,7 +81,7 @@ experience:
     databases from 11 to 12, and deployed databases for several new applications.
   - Translated Rancher to Helm with some advanced yq scripting, then migrated applications
     for dozens of nationwide trucking fleets to our new AWS EKS clusters.
-  - Created a runbook for on-call engineers with various commands for troubleshooting
+  - Created a run book for on call engineers with various commands for troubleshooting
     Kubernetes, and onboarded several engineers to the wonderful world of container
     orchestration!
   - Implemented AWS VPC CNI to increase the pods per node for our Kubernetes clusters,
@@ -144,16 +144,16 @@ experience:
     of cross-regional meetings to collaborate with other DevOps teams around the world,
     and advocate for process standardization; organized the team's work using the
     kanban project management methodology; performed backlog grooming, prioritization,
-    assignment, and led our team's standup meetings; acted as the oncall incident
+    assignment, and led our team's standup meetings; acted as the on call incident
     commander for production outages; and trained developers on Kubernetes and pipelines
     to give them more autonomy, which ultimately gave them a better developer experience.
   - In 2021, in addition to supporting previous projects, I helped launch Palm NFT
     Studio, which partnered with heni.com to create an interesting NFT project called
     "The Currency" by artist Damien Hirst.
-  - In 2022 and early 2023, I supported MetaMask's Buy (fiat onramp), Portfolio, Bridge,
-    and Staking products. During this time, we also started working towards SOC2 compliance,
-    which meant we were consolidating and documenting our processes, auditing access,
-    and migrating all infra to AWS SSO, Okta, and Pomerium.
+  - In 2022 and early 2023, I supported MetaMask's Buy (fiat on-ramp), Portfolio,
+    Bridge, and Staking products. During this time, we also started working towards
+    SOC2 compliance, which meant we were consolidating and documenting our processes,
+    auditing access, and migrating all infra to AWS SSO, Okta, and Pomerium.
   - 'Throughout my tenure, I''ve deployed many databases including: Redis, ElastiCache,
     PostgreSQL, RDS, Prometheus (inc. Alertmanager and Grafana), Elastic Stack (Elasticsearch,
     Filebeat, Kibana, and APM), MongoDB, MySQL/MariaDB, TimescaleDB, and Cassandra.
@@ -179,12 +179,13 @@ experience:
   starting_compensation: crnQSXi9Uxqu2kAlgnSK8A==
   ending_compensation: crnQSXi9Uxqu2kAlgnSK8A==
   description:
-  - My team was working on GDPR and SOC 2 compliance, where my role was to automate
-    the OS upgrade process for our Puppet, Sensu, Elasticsearch, and Jenkins hosts.
-    Most notably, I wrote some scripts to control the flow of data into our Elasticsearch
-    cluster, and perform a rolling upgrade. I also began deduplicating our collection
-    of around forty separate copy/pasted upgrade scripts. I created a POC for a unified,
-    generic upgrade process that would work with all of our hosts.
+  - My team worked on GDPR and SOC 2 compliance, where my role was to automate the
+    OS upgrade process for our Puppet, Sensu, Elasticsearch, and Jenkins hosts. Most
+    notably, I wrote some scripts to control the flow of data into our Elasticsearch
+    cluster, and perform a rolling upgrade.
+  - Deduplicated our collection of around forty separate copy/pasted upgrade scripts.
+    I created a POC for a unified, generic upgrade process that would work with all
+    of our hosts.
   reason_for_leaving: |-
     LtiIGEthnRtN+lFoV3BYZ6hsr5peSH0sWzBdTi65RXTcIE15w6ULh/MXkUa+
     Vwe4dPAKhe3BEtKOm6KuEvSJdnud2YSA6o80M4Gkfu1ASUO93sLU9xqOsxVK
@@ -238,7 +239,7 @@ experience:
     used SparkleFormation (an infrastructure as code (IaC) Ruby DSL that builds CloudFormation
     templates) to build ELBs, ASGs, and other BS. We set up GitLab to house all of
     the code, and used Puppet 4 with agent certificate extensions to manage our configuration.
-  - 'App deploys, OS upgrades, developer requests, and on-call issues were another
+  - 'App deploys, OS upgrades, developer requests, and on call issues were another
     significant part of my workload. App deploys used to take two people four hours
     to complete. I wrote a plethora of scripts to automate this process: one for NetScaler
     load balancing, another that restarted all the services for each server role in
@@ -246,7 +247,7 @@ experience:
     all of these. The deploy process now takes one person 45 minutes, and most of
     that is just waiting for a service to build an index. Similarly for OS updates,
     I wrote a script to automatically perform updates for an entire environment instead
-    of updating servers individually. Regarding on-call issues, I wrote a "clean up"
+    of updating servers individually. Regarding on call issues, I wrote a "clean up"
     script with role-based rules. With it, I was able to reduce our free space alerts
     from an average of 55 per month to 5 per month. The NOC (the team that escalates
     alerts to our team) gave me kudos as well - they had a similar reduction in alerts.'
@@ -254,7 +255,7 @@ experience:
     aspects of my job. Before the AWS project began, I was tasked with creating a
     POC for a new build and life cycle management process using Red Hat Satellite
     (which is essentially Foreman and Katello). Satellite was fairly complex, and,
-    due to it's rigid nature, it didn't work well for our environments, so that project
+    due to its rigid nature, it didn't work well for our environments, so that project
     was scrapped. I also researched several monitoring solutions, recommended Sensu,
     and ended up building POCs for Zabbix and Zenoss. Unfortunately, this was during
     a turbulent time for our company, so the monitoring projects were abandoned as
